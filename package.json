@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^7.19.1",
     "fuse.js": "^6.4.1",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
@@ -38,15 +37,12 @@
       "<rootDir>/src/**/*.js",
       "!<rootDir>/src/app.js",
       "!<rootDir>/src/helpers/routes.js",
-      "!<rootDir>/src/lib/firebase.js",
-      "!<rootDir>/src/lib/firebase.prod.js",
       "!<rootDir>/src/index.js",
       "!<rootDir>/src/seed.js",
       "!<rootDir>/src/utils/index.js",
       "!<rootDir>/src/pages/index.js",
       "!<rootDir>/src/global-styles.js",
       "!<rootDir>/src/components/index.js",
-      "!<rootDir>/src/firebase.prod.js",
       "!<rootDir>/src/hooks/*.js",
       "!<rootDir>/src/context/*.js"
     ],
