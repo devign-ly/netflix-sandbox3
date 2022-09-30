@@ -33,6 +33,6 @@ Jumbotron.SubTitle = function JumbotronSubTitle({ children }) {
   return <SubTitle>{children}</SubTitle>;
 };
 
-Jumbotron.Image = function JumbotronImage() {
-  return <Image />;
+Jumbotron.Image = function JumbotronImage({ src, alt }) {
+  return <Image src={src} alt={alt} />;
 };
