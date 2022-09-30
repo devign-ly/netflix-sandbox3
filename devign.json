@@ -1,0 +1,13 @@
+{
+	"project_name": "netflix",
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"__tests__"
+	],
+	"web_server_port": 3000,
+	"run": "yarn start",
+	"bypass_proxy": true,
+	"main_branch": "main"
+}
