@@ -6,6 +6,7 @@ import logo from '../logo.svg';
 import { AuthContext } from '../context/auth';
 import { SelectProfileContainer } from './profiles';
 import { FooterContainer } from './footer';
+import profiles from '../data/profiles.json';
 
 export function BrowseContainer({ slides }) {
   const [category, setCategory] = useState('series');
@@ -15,13 +16,12 @@ export function BrowseContainer({ slides }) {
   const [slideRows, setSlideRows] = useState([]);
 
   const { auth } = useContext(AuthContext);
-  const user = auth.currentUser || {};
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
-  }, [profile.displayName]);
+    }, 1500);
+  }, [profile.name]);
 
   useEffect(() => {
     setSlideRows(slides[category]);
@@ -40,9 +40,16 @@ export function BrowseContainer({ slides }) {
     }
   }, [searchTerm]);
 
-  return profile.displayName ? (
+  const switchProfile = (p) => {
+    if (p.name !== profile.name) {
+      setLoading(true);
+      setProfile(p);
+    }
+  };
+
+  return profile.name ? (
     <>
-      {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
+      {loading ? <Loading src={profile.avatar} /> : <Loading.ReleaseBody />}
 
       <Header src="joker1" dontShowOnSmallViewPort>
         <Header.Frame>
@@ -67,12 +74,16 @@ export function BrowseContainer({ slides }) {
               setSearchTerm={setSearchTerm}
             />
             <Header.Profile>
-              <Header.Picture src={user.photoURL} />
+              <Header.Picture src={profile.avatar} />
               <Header.Dropdown>
-                <Header.Group>
-                  <Header.Picture src={user.photoURL} />
-                  <Header.TextLink>{user.displayName}</Header.TextLink>
-                </Header.Group>
+                {profiles.map((p) => (
+                  <Header.Group key={p.name}>
+                    <Header.Picture src={p.avatar} />
+                    <Header.TextLink onClick={() => switchProfile(p)}>
+                      {p.name}
+                    </Header.TextLink>
+                  </Header.Group>
+                ))}
                 <Header.Group>
                   <Header.TextLink onClick={() => auth.signOut()}>
                     Sign out
@@ -125,6 +136,6 @@ export function BrowseContainer({ slides }) {
       <FooterContainer />
     </>
   ) : (
-    <SelectProfileContainer user={user} setProfile={setProfile} />
+    <SelectProfileContainer setProfile={setProfile} />
   );
 }

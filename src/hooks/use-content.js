@@ -1,4 +1,4 @@
-import data from '../data.json';
+import data from '../data/media.json';
 
 export default function useContent(target) {
   const content = data[target] || [];
