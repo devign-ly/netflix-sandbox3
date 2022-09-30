@@ -4,17 +4,17 @@ import { Container, Button, Overlay, Inner, Close } from './styles/player';
 
 export const PlayerContext = createContext();
 
-export default function Player({ children, ...restProps }) {
+export default function Player({ children }) {
   const [showPlayer, setShowPlayer] = useState(false);
 
   return (
     <PlayerContext.Provider value={{ showPlayer, setShowPlayer }}>
-      <Container {...restProps}>{children}</Container>
+      <Container>{children}</Container>
     </PlayerContext.Provider>
   );
 }
 
-Player.Video = function PlayerVideo({ src, ...restProps }) {
+Player.Video = function PlayerVideo({ src }) {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
   return showPlayer
@@ -32,12 +32,8 @@ Player.Video = function PlayerVideo({ src, ...restProps }) {
     : null;
 };
 
-Player.Button = function PlayerButton({ ...restProps }) {
+Player.Button = function PlayerButton() {
   const { showPlayer, setShowPlayer } = useContext(PlayerContext);
 
-  return (
-    <Button onClick={() => setShowPlayer((showPlayer) => !showPlayer)} {...restProps}>
-      Play
-    </Button>
-  );
+  return <Button onClick={() => setShowPlayer((show) => !show)}>Play</Button>;
 };

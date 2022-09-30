@@ -5,6 +5,9 @@ import { GlobalStyles } from './global-styles';
 import { App } from './app';
 import { auth } from './lib/auth';
 import { AuthContext } from './context/auth';
+// import { init } from 'devigner';
+
+// init();
 
 render(
   <React.StrictMode>

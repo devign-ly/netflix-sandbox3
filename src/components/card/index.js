@@ -20,42 +20,44 @@ import {
 
 export const FeatureContext = createContext();
 
-export default function Card({ children, ...restProps }) {
+export default function Card({ children }) {
   const [showFeature, setShowFeature] = useState(false);
   const [itemFeature, setItemFeature] = useState({});
 
   return (
-    <FeatureContext.Provider value={{ showFeature, setShowFeature, itemFeature, setItemFeature }}>
-      <Container {...restProps}>{children}</Container>
+    <FeatureContext.Provider
+      value={{ showFeature, setShowFeature, itemFeature, setItemFeature }}
+    >
+      <Container>{children}</Container>
     </FeatureContext.Provider>
   );
 }
 
-Card.Group = function CardGroup({ children, ...restProps }) {
-  return <Group {...restProps}>{children}</Group>;
+Card.Group = function CardGroup({ children }) {
+  return <Group>{children}</Group>;
 };
 
-Card.Title = function CardTitle({ children, ...restProps }) {
-  return <Title {...restProps}>{children}</Title>;
+Card.Title = function CardTitle({ children }) {
+  return <Title>{children}</Title>;
 };
 
-Card.SubTitle = function CardSubTitle({ children, ...restProps }) {
-  return <SubTitle {...restProps}>{children}</SubTitle>;
+Card.SubTitle = function CardSubTitle({ children }) {
+  return <SubTitle>{children}</SubTitle>;
 };
 
-Card.Text = function CardText({ children, ...restProps }) {
-  return <Text {...restProps}>{children}</Text>;
+Card.Text = function CardText({ children }) {
+  return <Text>{children}</Text>;
 };
 
-Card.Entities = function CardEntities({ children, ...restProps }) {
-  return <Entities {...restProps}>{children}</Entities>;
+Card.Entities = function CardEntities({ children }) {
+  return <Entities>{children}</Entities>;
 };
 
-Card.Meta = function CardMeta({ children, ...restProps }) {
-  return <Meta {...restProps}>{children}</Meta>;
+Card.Meta = function CardMeta({ children }) {
+  return <Meta>{children}</Meta>;
 };
 
-Card.Item = function CardItem({ item, children, ...restProps }) {
+Card.Item = function CardItem({ item, children }) {
   const { setShowFeature, setItemFeature } = useContext(FeatureContext);
 
   return (
@@ -64,22 +66,25 @@ Card.Item = function CardItem({ item, children, ...restProps }) {
         setItemFeature(item);
         setShowFeature(true);
       }}
-      {...restProps}
     >
       {children}
     </Item>
   );
 };
 
-Card.Image = function CardImage({ ...restProps }) {
-  return <Image {...restProps} />;
+Card.Image = function CardImage({ src }) {
+  return <Image src={src} />;
 };
 
-Card.Feature = function CardFeature({ children, category, ...restProps }) {
-  const { showFeature, itemFeature, setShowFeature } = useContext(FeatureContext);
+Card.Feature = function CardFeature({ children, category }) {
+  const { showFeature, itemFeature, setShowFeature } = useContext(
+    FeatureContext
+  );
 
   return showFeature ? (
-    <Feature {...restProps} src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}>
+    <Feature
+      src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}
+    >
       <Content>
         <FeatureTitle>{itemFeature.title}</FeatureTitle>
         <FeatureText>{itemFeature.description}</FeatureText>
@@ -88,9 +93,12 @@ Card.Feature = function CardFeature({ children, category, ...restProps }) {
         </FeatureClose>
 
         <Group margin="30px 0" flexDirection="row" alignItems="center">
-          <Maturity rating={itemFeature.maturity}>{itemFeature.maturity < 12 ? 'PG' : itemFeature.maturity}</Maturity>
+          <Maturity rating={itemFeature.maturity}>
+            {itemFeature.maturity < 12 ? 'PG' : itemFeature.maturity}
+          </Maturity>
           <FeatureText fontWeight="bold">
-            {itemFeature.genre.charAt(0).toUpperCase() + itemFeature.genre.slice(1)}
+            {itemFeature.genre.charAt(0).toUpperCase() +
+              itemFeature.genre.slice(1)}
           </FeatureText>
         </Group>
 

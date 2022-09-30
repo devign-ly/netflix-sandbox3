@@ -1,38 +1,73 @@
 import React from 'react';
-import { Container, Error, Base, Title, Text, TextSmall, Link, Input, Submit } from './styles/form';
+import {
+  Container,
+  Error,
+  Base,
+  Title,
+  Text,
+  TextSmall,
+  Link,
+  Input,
+  Submit,
+} from './styles/form';
 
-export default function Form({ children, ...restProps }) {
-  return <Container {...restProps}>{children}</Container>;
+export default function Form({ children }) {
+  return <Container>{children}</Container>;
 }
 
-Form.Error = function FormError({ children, ...restProps }) {
-  return <Error {...restProps}>{children}</Error>;
+Form.Error = function FormError({ children }) {
+  return <Error>{children}</Error>;
 };
 
-Form.Base = function FormBase({ children, ...restProps }) {
-  return <Base {...restProps}>{children}</Base>;
+Form.Base = function FormBase({ onSubmit, method, children }) {
+  return (
+    <Base onSubmit={onSubmit} method={method}>
+      {children}
+    </Base>
+  );
 };
 
-Form.Title = function FormTitle({ children, ...restProps }) {
-  return <Title {...restProps}>{children}</Title>;
+Form.Title = function FormTitle({ children }) {
+  return <Title>{children}</Title>;
 };
 
-Form.Text = function FormText({ children, ...restProps }) {
-  return <Text {...restProps}>{children}</Text>;
+Form.Text = function FormText({ children }) {
+  return <Text>{children}</Text>;
 };
 
-Form.TextSmall = function FormTextSmall({ children, ...restProps }) {
-  return <TextSmall {...restProps}>{children}</TextSmall>;
+Form.TextSmall = function FormTextSmall({ children }) {
+  return <TextSmall>{children}</TextSmall>;
 };
 
-Form.Link = function FormLink({ children, ...restProps }) {
-  return <Link {...restProps}>{children}</Link>;
+Form.Link = function FormLink({ to, children }) {
+  return <Link to={to}>{children}</Link>;
 };
 
-Form.Input = function FormInput({ children, ...restProps }) {
-  return <Input {...restProps}>{children}</Input>;
+Form.Input = function FormInput({
+  type,
+  placeholder,
+  value,
+  onChange,
+  autoComplete,
+  children,
+}) {
+  return (
+    <Input
+      type={type}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+      autoComplete={autoComplete}
+    >
+      {children}
+    </Input>
+  );
 };
 
-Form.Submit = function FormSubmit({ children, ...restProps }) {
-  return <Submit {...restProps}>{children}</Submit>;
+Form.Submit = function FormSubmit({ type, disabled, children }) {
+  return (
+    <Submit type={type} disabled={disabled}>
+      {children}
+    </Submit>
+  );
 };
