@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import 'normalize.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import * as Devign from 'devigner';
 import { GlobalStyles } from './global-styles';
 import { App } from './app';

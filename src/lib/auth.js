@@ -14,9 +14,7 @@ class Auth extends EventTarget {
 
   signInWithEmailAndPassword(email, password) {
     return new Promise((resolve, reject) => {
-      const user = users.find(
-        (u) => u.email === email && u.password === password
-      );
+      const user = users.find((u) => u.email === email && u.password === password);
 
       if (user) {
         setTimeout(() => {

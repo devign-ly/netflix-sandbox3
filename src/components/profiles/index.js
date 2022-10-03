@@ -18,11 +18,7 @@ Profiles.User = function ProfilesUser({ onClick, children }) {
 };
 
 Profiles.Picture = function ProfilesPicture({ src }) {
-  return (
-    <Picture
-      src={src ? `/images/users/${src}.png` : '/images/misc/loading.gif'}
-    />
-  );
+  return <Picture src={src ? `/images/users/${src}.png` : '/images/misc/loading.gif'} />;
 };
 
 Profiles.Name = function ProfilesName({ children }) {

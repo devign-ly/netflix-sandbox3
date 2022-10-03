@@ -19,18 +19,9 @@ import {
   Logo,
 } from './styles/header';
 
-export default function Header({
-  src,
-  dontShowOnSmallViewPort,
-  bg = true,
-  children,
-}) {
+export default function Header({ src, dontShowOnSmallViewPort, bg = true, children }) {
   return bg ? (
-    <Background
-      data-testid="header-bg"
-      src={src}
-      dontShowOnSmallViewPort={dontShowOnSmallViewPort}
-    >
+    <Background data-testid="header-bg" src={src} dontShowOnSmallViewPort={dontShowOnSmallViewPort}>
       {children}
     </Background>
   ) : (
@@ -59,10 +50,7 @@ Header.Search = function HeaderSearch({ searchTerm, setSearchTerm }) {
 
   return (
     <Search>
-      <SearchIcon
-        onClick={() => setSearchActive((active) => !active)}
-        data-testid="search-click"
-      >
+      <SearchIcon onClick={() => setSearchActive((active) => !active)} data-testid="search-click">
         <img src="/images/icons/search.png" alt="Search" />
       </SearchIcon>
       <SearchInput

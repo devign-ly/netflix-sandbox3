@@ -25,9 +25,7 @@ export default function Card({ children }) {
   const [itemFeature, setItemFeature] = useState({});
 
   return (
-    <FeatureContext.Provider
-      value={{ showFeature, setShowFeature, itemFeature, setItemFeature }}
-    >
+    <FeatureContext.Provider value={{ showFeature, setShowFeature, itemFeature, setItemFeature }}>
       <Container>{children}</Container>
     </FeatureContext.Provider>
   );
@@ -77,14 +75,10 @@ Card.Image = function CardImage({ src }) {
 };
 
 Card.Feature = function CardFeature({ children, category }) {
-  const { showFeature, itemFeature, setShowFeature } = useContext(
-    FeatureContext
-  );
+  const { showFeature, itemFeature, setShowFeature } = useContext(FeatureContext);
 
   return showFeature ? (
-    <Feature
-      src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}
-    >
+    <Feature src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}>
       <Content>
         <FeatureTitle>{itemFeature.title}</FeatureTitle>
         <FeatureText>{itemFeature.description}</FeatureText>
@@ -93,12 +87,9 @@ Card.Feature = function CardFeature({ children, category }) {
         </FeatureClose>
 
         <Group margin="30px 0" flexDirection="row" alignItems="center">
-          <Maturity rating={itemFeature.maturity}>
-            {itemFeature.maturity < 12 ? 'PG' : itemFeature.maturity}
-          </Maturity>
+          <Maturity rating={itemFeature.maturity}>{itemFeature.maturity < 12 ? 'PG' : itemFeature.maturity}</Maturity>
           <FeatureText fontWeight="bold">
-            {itemFeature.genre.charAt(0).toUpperCase() +
-              itemFeature.genre.slice(1)}
+            {itemFeature.genre.charAt(0).toUpperCase() + itemFeature.genre.slice(1)}
           </FeatureText>
         </Group>
 

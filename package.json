@@ -15,7 +15,9 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test --coverage --watchAll"
+    "test": "craco test --coverage --watchAll",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "resolutions": {
     "//": "See https://github.com/facebook/create-react-app/issues/11773",

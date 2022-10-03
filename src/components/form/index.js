@@ -1,15 +1,5 @@
 import React from 'react';
-import {
-  Container,
-  Error,
-  Base,
-  Title,
-  Text,
-  TextSmall,
-  Link,
-  Input,
-  Submit,
-} from './styles/form';
+import { Container, Error, Base, Title, Text, TextSmall, Link, Input, Submit } from './styles/form';
 
 export default function Form({ children }) {
   return <Container>{children}</Container>;
@@ -43,22 +33,9 @@ Form.Link = function FormLink({ to, children }) {
   return <Link to={to}>{children}</Link>;
 };
 
-Form.Input = function FormInput({
-  type,
-  placeholder,
-  value,
-  onChange,
-  autoComplete,
-  children,
-}) {
+Form.Input = function FormInput({ type, placeholder, value, onChange, autoComplete, children }) {
   return (
-    <Input
-      type={type}
-      placeholder={placeholder}
-      value={value}
-      onChange={onChange}
-      autoComplete={autoComplete}
-    >
+    <Input type={type} placeholder={placeholder} value={value} onChange={onChange} autoComplete={autoComplete}>
       {children}
     </Input>
   );

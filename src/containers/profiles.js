@@ -17,11 +17,7 @@ export function SelectProfileContainer({ setProfile }) {
         <Profiles.Title>Who's watching?</Profiles.Title>
         <Profiles.List>
           {profiles.map((profile) => (
-            <Profiles.User
-              key={profile.name}
-              onClick={() => setProfile(profile)}
-              data-testid="user-profile"
-            >
+            <Profiles.User key={profile.name} onClick={() => setProfile(profile)} data-testid="user-profile">
               <Profiles.Picture src={profile.avatar} />
               <Profiles.Name>{profile.name}</Profiles.Name>
             </Profiles.User>
