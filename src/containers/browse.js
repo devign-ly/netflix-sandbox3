@@ -86,7 +86,7 @@ export function BrowseContainer({ slides }) {
                 ))}
                 <Header.Group>
                   <Header.TextLink onClick={() => auth.signOut()}>
-                    Sign out
+                    Sign out of Netflix
                   </Header.TextLink>
                 </Header.Group>
               </Header.Dropdown>
