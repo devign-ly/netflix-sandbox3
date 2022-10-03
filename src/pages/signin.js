@@ -1,7 +1,16 @@
 import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import { AuthContext } from '../context/auth';
-import { Form } from '../components';
+import Form, {
+  FormTitle,
+  FormError,
+  FormBase,
+  FormInput,
+  FormSubmit,
+  FormText,
+  FormLink,
+  FormTextSmall,
+} from '../components/form';
 import { HeaderContainer } from '../containers/header';
 import { FooterContainer } from '../containers/footer';
 import * as ROUTES from '../constants/routes';
@@ -37,33 +46,33 @@ export default function SignIn() {
     <>
       <HeaderContainer>
         <Form>
-          <Form.Title>Sign In</Form.Title>
-          {error && <Form.Error data-testid="error">{error}</Form.Error>}
+          <FormTitle>Sign In</FormTitle>
+          {error && <FormError data-testid="error">{error}</FormError>}
 
-          <Form.Base onSubmit={handleSignin} method="POST">
-            <Form.Input
+          <FormBase onSubmit={handleSignin} method="POST">
+            <FormInput
               placeholder="Email address"
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
-            <Form.Input
+            <FormInput
               type="password"
               value={password}
               autoComplete="off"
               placeholder="Password"
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="submit" data-testid="sign-in">
+            <FormSubmit disabled={isInvalid} type="submit" data-testid="sign-in">
               Sign In
-            </Form.Submit>
-          </Form.Base>
+            </FormSubmit>
+          </FormBase>
 
-          <Form.Text>
-            New to Netflix? <Form.Link to="/signup">Sign up now.</Form.Link>
-          </Form.Text>
-          <Form.TextSmall>
+          <FormText>
+            New to Netflix? <FormLink to="/signup">Sign up now.</FormLink>
+          </FormText>
+          <FormTextSmall>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
-          </Form.TextSmall>
+          </FormTextSmall>
         </Form>
       </HeaderContainer>
       <FooterContainer />

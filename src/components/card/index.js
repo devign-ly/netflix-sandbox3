@@ -31,31 +31,31 @@ export default function Card({ children }) {
   );
 }
 
-Card.Group = function CardGroup({ children }) {
+export function CardGroup({ children }) {
   return <Group>{children}</Group>;
-};
+}
 
-Card.Title = function CardTitle({ children }) {
+export function CardTitle({ children }) {
   return <Title>{children}</Title>;
-};
+}
 
-Card.SubTitle = function CardSubTitle({ children }) {
+export function CardSubTitle({ children }) {
   return <SubTitle>{children}</SubTitle>;
-};
+}
 
-Card.Text = function CardText({ children }) {
+export function CardText({ children }) {
   return <Text>{children}</Text>;
-};
+}
 
-Card.Entities = function CardEntities({ children }) {
+export function CardEntities({ children }) {
   return <Entities>{children}</Entities>;
-};
+}
 
-Card.Meta = function CardMeta({ children }) {
+export function CardMeta({ children }) {
   return <Meta>{children}</Meta>;
-};
+}
 
-Card.Item = function CardItem({ item, children }) {
+export function CardItem({ item, children }) {
   const { setShowFeature, setItemFeature } = useContext(FeatureContext);
 
   return (
@@ -68,13 +68,13 @@ Card.Item = function CardItem({ item, children }) {
       {children}
     </Item>
   );
-};
+}
 
-Card.Image = function CardImage({ src }) {
+export function CardImage({ src }) {
   return <Image src={src} />;
-};
+}
 
-Card.Feature = function CardFeature({ children, category }) {
+export function CardFeature({ children, category }) {
   const { showFeature, itemFeature, setShowFeature } = useContext(FeatureContext);
 
   return showFeature ? (
@@ -97,4 +97,4 @@ Card.Feature = function CardFeature({ children, category }) {
       </Content>
     </Feature>
   ) : null;
-};
+}

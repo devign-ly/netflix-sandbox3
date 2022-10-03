@@ -5,22 +5,22 @@ export default function Profiles({ children }) {
   return <Container>{children}</Container>;
 }
 
-Profiles.Title = function ProfilesTitle({ children }) {
+export function ProfilesTitle({ children }) {
   return <Title>{children}</Title>;
-};
+}
 
-Profiles.List = function ProfilesList({ children }) {
+export function ProfilesList({ children }) {
   return <List>{children}</List>;
-};
+}
 
-Profiles.User = function ProfilesUser({ onClick, children }) {
+export function ProfilesUser({ onClick, children }) {
   return <Item onClick={onClick}>{children}</Item>;
-};
+}
 
-Profiles.Picture = function ProfilesPicture({ src }) {
+export function ProfilesPicture({ src }) {
   return <Picture src={src ? `/images/users/${src}.png` : '/images/misc/loading.gif'} />;
-};
+}
 
-Profiles.Name = function ProfilesName({ children }) {
+export function ProfilesName({ children }) {
   return <Name>{children}</Name>;
-};
+}

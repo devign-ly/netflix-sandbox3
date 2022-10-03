@@ -1,43 +1,50 @@
 import React from 'react';
-import { Footer } from '../components';
+import Footer, {
+  FooterTitle,
+  FooterRow,
+  FooterColumn,
+  FooterLink,
+  FooterBreak,
+  FooterText,
+} from '../components/footer';
 
 export function FooterContainer() {
   return (
     <Footer>
-      <Footer.Title>Questions? Contact us.</Footer.Title>
-      <Footer.Break />
-      <Footer.Row>
-        <Footer.Column>
-          <Footer.Link href="#">FAQ</Footer.Link>
-          <Footer.Link href="#">Investor Relations</Footer.Link>
-          <Footer.Link href="#">Ways to Watch</Footer.Link>
-          <Footer.Link href="#">Corporate Information</Footer.Link>
-          <Footer.Link href="#">Netflix Originals</Footer.Link>
-        </Footer.Column>
+      <FooterTitle>Questions? Contact us.</FooterTitle>
+      <FooterBreak />
+      <FooterRow>
+        <FooterColumn>
+          <FooterLink href="#">FAQ</FooterLink>
+          <FooterLink href="#">Investor Relations</FooterLink>
+          <FooterLink href="#">Ways to Watch</FooterLink>
+          <FooterLink href="#">Corporate Information</FooterLink>
+          <FooterLink href="#">Netflix Originals</FooterLink>
+        </FooterColumn>
 
-        <Footer.Column>
-          <Footer.Link href="#">Help Centre</Footer.Link>
-          <Footer.Link href="#">Jobs</Footer.Link>
-          <Footer.Link href="#">Terms of Use</Footer.Link>
-          <Footer.Link href="#">Contact Us</Footer.Link>
-        </Footer.Column>
+        <FooterColumn>
+          <FooterLink href="#">Help Centre</FooterLink>
+          <FooterLink href="#">Jobs</FooterLink>
+          <FooterLink href="#">Terms of Use</FooterLink>
+          <FooterLink href="#">Contact Us</FooterLink>
+        </FooterColumn>
 
-        <Footer.Column>
-          <Footer.Link href="#">Account</Footer.Link>
-          <Footer.Link href="#">Redeem gift cards</Footer.Link>
-          <Footer.Link href="#">Privacy</Footer.Link>
-          <Footer.Link href="#">Speed Test</Footer.Link>
-        </Footer.Column>
+        <FooterColumn>
+          <FooterLink href="#">Account</FooterLink>
+          <FooterLink href="#">Redeem gift cards</FooterLink>
+          <FooterLink href="#">Privacy</FooterLink>
+          <FooterLink href="#">Speed Test</FooterLink>
+        </FooterColumn>
 
-        <Footer.Column>
-          <Footer.Link href="#">Media Centre</Footer.Link>
-          <Footer.Link href="#">Buy gift cards</Footer.Link>
-          <Footer.Link href="#">Cookie Preferences</Footer.Link>
-          <Footer.Link href="#">Legal Notices</Footer.Link>
-        </Footer.Column>
-      </Footer.Row>
-      <Footer.Break />
-      <Footer.Text>Netflix United Kingdom</Footer.Text>
+        <FooterColumn>
+          <FooterLink href="#">Media Centre</FooterLink>
+          <FooterLink href="#">Buy gift cards</FooterLink>
+          <FooterLink href="#">Cookie Preferences</FooterLink>
+          <FooterLink href="#">Legal Notices</FooterLink>
+        </FooterColumn>
+      </FooterRow>
+      <FooterBreak />
+      <FooterText>Netflix United Kingdom</FooterText>
     </Footer>
   );
 }

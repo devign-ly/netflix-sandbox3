@@ -29,23 +29,23 @@ export default function Header({ src, dontShowOnSmallViewPort, bg = true, childr
   );
 }
 
-Header.Frame = function HeaderFrame({ children }) {
+export function HeaderFrame({ children }) {
   return <Container>{children}</Container>;
-};
+}
 
-Header.Group = function HeaderGroup({ children }) {
+export function HeaderGroup({ children }) {
   return <Group>{children}</Group>;
-};
+}
 
-Header.Logo = function HeaderLogo({ to, src, alt }) {
+export function HeaderLogo({ to, src, alt }) {
   return (
     <ReachRouterLink to={to}>
       <Logo src={src} alt={alt} />
     </ReachRouterLink>
   );
-};
+}
 
-Header.Search = function HeaderSearch({ searchTerm, setSearchTerm }) {
+export function HeaderSearch({ searchTerm, setSearchTerm }) {
   const [searchActive, setSearchActive] = useState(false);
 
   return (
@@ -62,44 +62,44 @@ Header.Search = function HeaderSearch({ searchTerm, setSearchTerm }) {
       />
     </Search>
   );
-};
+}
 
-Header.Profile = function HeaderProfile({ children }) {
+export function HeaderProfile({ children }) {
   return <Profile>{children}</Profile>;
-};
+}
 
-Header.Feature = function HeaderFeature({ children }) {
+export function HeaderFeature({ children }) {
   return <Feature>{children}</Feature>;
-};
+}
 
-Header.Picture = function HeaderPicture({ src }) {
+export function HeaderPicture({ src }) {
   return <Picture src={`/images/users/${src}.png`} />;
-};
+}
 
-Header.Dropdown = function HeaderDropdown({ children }) {
+export function HeaderDropdown({ children }) {
   return <Dropdown>{children}</Dropdown>;
-};
+}
 
-Header.TextLink = function HeaderTextLink({ active, onClick, children }) {
+export function HeaderTextLink({ active, onClick, children }) {
   return (
     <Link active={active} onClick={onClick}>
       {children}
     </Link>
   );
-};
+}
 
-Header.PlayButton = function HeaderPlayButton({ children }) {
+export function HeaderPlayButton({ children }) {
   return <PlayButton>{children}</PlayButton>;
-};
+}
 
-Header.FeatureCallOut = function HeaderFeatureCallOut({ children }) {
+export function HeaderFeatureCallOut({ children }) {
   return <FeatureCallOut>{children}</FeatureCallOut>;
-};
+}
 
-Header.Text = function HeaderText({ children }) {
+export function HeaderText({ children }) {
   return <Text>{children}</Text>;
-};
+}
 
-Header.ButtonLink = function HeaderButtonLink({ to, children }) {
+export function HeaderButtonLink({ to, children }) {
   return <ButtonLink to={to}>{children}</ButtonLink>;
-};
+}

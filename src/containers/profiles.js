@@ -1,5 +1,12 @@
 import React from 'react';
-import { Header, Profiles } from '../components';
+import Header, { HeaderFrame, HeaderLogo } from '../components/header';
+import Profiles, {
+  ProfilesTitle,
+  ProfilesList,
+  ProfilesUser,
+  ProfilesPicture,
+  ProfilesName,
+} from '../components/profiles';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
 import profiles from '../data/profiles.json';
@@ -8,21 +15,21 @@ export function SelectProfileContainer({ setProfile }) {
   return (
     <>
       <Header bg={false}>
-        <Header.Frame>
-          <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
-        </Header.Frame>
+        <HeaderFrame>
+          <HeaderLogo to={ROUTES.HOME} src={logo} alt="Netflix" />
+        </HeaderFrame>
       </Header>
 
       <Profiles>
-        <Profiles.Title>Who's watching?</Profiles.Title>
-        <Profiles.List>
+        <ProfilesTitle>Who's watching?</ProfilesTitle>
+        <ProfilesList>
           {profiles.map((profile) => (
-            <Profiles.User key={profile.name} onClick={() => setProfile(profile)} data-testid="user-profile">
-              <Profiles.Picture src={profile.avatar} />
-              <Profiles.Name>{profile.name}</Profiles.Name>
-            </Profiles.User>
+            <ProfilesUser key={profile.name} onClick={() => setProfile(profile)} data-testid="user-profile">
+              <ProfilesPicture src={profile.avatar} />
+              <ProfilesName>{profile.name}</ProfilesName>
+            </ProfilesUser>
           ))}
-        </Profiles.List>
+        </ProfilesList>
       </Profiles>
     </>
   );

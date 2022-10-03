@@ -5,22 +5,22 @@ export default function OptForm({ children }) {
   return <Container>{children}</Container>;
 }
 
-OptForm.Input = function OptFormInput({ placeholder }) {
+export function OptFormInput({ placeholder }) {
   return <Input placeholder={placeholder} />;
-};
+}
 
-OptForm.Button = function OptFormButton({ children }) {
+export function OptFormButton({ children }) {
   return (
     <Button>
       {children} <img src="/images/icons/chevron-right.png" alt="Try Now" />
     </Button>
   );
-};
+}
 
-OptForm.Text = function OptFormText({ children }) {
+export function OptFormText({ children }) {
   return <Text>{children}</Text>;
-};
+}
 
-OptForm.Break = function OptFormBreak() {
+export function OptFormBreak() {
   return <Break />;
-};
+}

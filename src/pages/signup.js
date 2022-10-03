@@ -1,7 +1,16 @@
 import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import { AuthContext } from '../context/auth';
-import { Form } from '../components';
+import Form, {
+  FormTitle,
+  FormError,
+  FormBase,
+  FormInput,
+  FormSubmit,
+  FormText,
+  FormLink,
+  FormTextSmall,
+} from '../components/form';
 import { HeaderContainer } from '../containers/header';
 import { FooterContainer } from '../containers/footer';
 import * as ROUTES from '../constants/routes';
@@ -44,38 +53,38 @@ export default function SignUp() {
     <>
       <HeaderContainer>
         <Form>
-          <Form.Title>Sign Up</Form.Title>
-          {error && <Form.Error>{error}</Form.Error>}
+          <FormTitle>Sign Up</FormTitle>
+          {error && <FormError>{error}</FormError>}
 
-          <Form.Base onSubmit={handleSignup} method="POST">
-            <Form.Input
+          <FormBase onSubmit={handleSignup} method="POST">
+            <FormInput
               placeholder="First name"
               value={firstName}
               onChange={({ target }) => setFirstName(target.value)}
             />
-            <Form.Input
+            <FormInput
               placeholder="Email address"
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)}
             />
-            <Form.Input
+            <FormInput
               type="password"
               value={password}
               autoComplete="off"
               placeholder="Password"
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="submit" data-testid="sign-up">
+            <FormSubmit disabled={isInvalid} type="submit" data-testid="sign-up">
               Sign Up
-            </Form.Submit>
-          </Form.Base>
+            </FormSubmit>
+          </FormBase>
 
-          <Form.Text>
-            Already a user? <Form.Link to="/signin">Sign in now.</Form.Link>
-          </Form.Text>
-          <Form.TextSmall>
+          <FormText>
+            Already a user? <FormLink to="/signin">Sign in now.</FormLink>
+          </FormText>
+          <FormTextSmall>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
-          </Form.TextSmall>
+          </FormTextSmall>
         </Form>
       </HeaderContainer>
       <FooterContainer />

@@ -5,10 +5,10 @@ export default function Feature({ children }) {
   return <Container>{children}</Container>;
 }
 
-Feature.Title = function FeatureTitle({ children }) {
+export function FeatureTitle({ children }) {
   return <Title>{children}</Title>;
-};
+}
 
-Feature.SubTitle = function FeatureSubTitle({ children }) {
+export function FeatureSubTitle({ children }) {
   return <SubTitle>{children}</SubTitle>;
-};
+}

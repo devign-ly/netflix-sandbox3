@@ -5,26 +5,26 @@ export default function Footer({ children }) {
   return <Container>{children}</Container>;
 }
 
-Footer.Row = function FooterRow({ children }) {
+export function FooterRow({ children }) {
   return <Row>{children}</Row>;
-};
+}
 
-Footer.Column = function FooterColumn({ children }) {
+export function FooterColumn({ children }) {
   return <Column>{children}</Column>;
-};
+}
 
-Footer.Link = function FooterLink({ children }) {
+export function FooterLink({ children }) {
   return <Link>{children}</Link>;
-};
+}
 
-Footer.Title = function FooterTitle({ children }) {
+export function FooterTitle({ children }) {
   return <Title>{children}</Title>;
-};
+}
 
-Footer.Text = function FooterText({ children }) {
+export function FooterText({ children }) {
   return <Text>{children}</Text>;
-};
+}
 
-Footer.Break = function FooterBreak() {
+export function FooterBreak() {
   return <Break />;
-};
+}

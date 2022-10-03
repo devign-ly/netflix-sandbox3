@@ -11,15 +11,15 @@ export default function Accordion({ children }) {
   );
 }
 
-Accordion.Title = function AccordionTitle({ children }) {
+export function AccordionTitle({ children }) {
   return <Title>{children}</Title>;
-};
+}
 
-Accordion.Frame = function AccordionFrame({ children }) {
+export function AccordionFrame({ children }) {
   return <Frame>{children}</Frame>;
-};
+}
 
-Accordion.Item = function AccordionItem({ children }) {
+export function AccordionItem({ children }) {
   const [toggleShow, setToggleShow] = useState(false);
 
   return (
@@ -27,9 +27,9 @@ Accordion.Item = function AccordionItem({ children }) {
       <Item>{children}</Item>
     </ToggleContext.Provider>
   );
-};
+}
 
-Accordion.Header = function AccordionHeader({ children }) {
+export function AccordionHeader({ children }) {
   const { toggleShow, setToggleShow } = useContext(ToggleContext);
 
   return (
@@ -42,9 +42,9 @@ Accordion.Header = function AccordionHeader({ children }) {
       )}
     </Header>
   );
-};
+}
 
-Accordion.Body = function AccordionBody({ children }) {
+export function AccordionBody({ children }) {
   const { toggleShow } = useContext(ToggleContext);
 
   /* return toggleShow ? <Body>{children}</Body> : null; */
@@ -54,4 +54,4 @@ Accordion.Body = function AccordionBody({ children }) {
       <span>{children}</span>
     </Body>
   );
-};
+}

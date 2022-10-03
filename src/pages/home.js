@@ -1,5 +1,6 @@
 import React from 'react';
-import { Feature, OptForm } from '../components';
+import Feature, { FeatureTitle, FeatureSubTitle } from '../components/feature';
+import OptForm, { OptFormInput, OptFormButton, OptFormBreak, OptFormText } from '../components/opt-form';
 import { HeaderContainer } from '../containers/header';
 import { JumbotronContainer } from '../containers/jumbotron';
 import { FaqsContainer } from '../containers/faqs';
@@ -10,13 +11,13 @@ export default function Home() {
     <>
       <HeaderContainer>
         <Feature>
-          <Feature.Title>Unlimited films, TV programmes and more.</Feature.Title>
-          <Feature.SubTitle>Watch anywhere. Cancel at any time.</Feature.SubTitle>
+          <FeatureTitle>Unlimited films, TV programmes and more.</FeatureTitle>
+          <FeatureSubTitle>Watch anywhere. Cancel at any time.</FeatureSubTitle>
           <OptForm>
-            <OptForm.Input placeholder="Email address" />
-            <OptForm.Button>Try it now</OptForm.Button>
-            <OptForm.Break />
-            <OptForm.Text>Ready to watch? Enter your email to create or restart your membership.</OptForm.Text>
+            <OptFormInput placeholder="Email address" />
+            <OptFormButton>Try it now</OptFormButton>
+            <OptFormBreak />
+            <OptFormText>Ready to watch? Enter your email to create or restart your membership.</OptFormText>
           </OptForm>
         </Feature>
       </HeaderContainer>

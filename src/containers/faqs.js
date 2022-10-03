@@ -1,25 +1,32 @@
 import React from 'react';
-import { Accordion, OptForm } from '../components';
+import Accordion, {
+  AccordionTitle,
+  AccordionFrame,
+  AccordionItem,
+  AccordionHeader,
+  AccordionBody,
+} from '../components/accordion';
+import OptForm, { OptFormInput, OptFormButton, OptFormBreak, OptFormText } from '../components/opt-form';
 import faqsData from '../fixtures/faqs';
 
 export function FaqsContainer() {
   return (
     <Accordion>
-      <Accordion.Title>Frequently Asked Questions</Accordion.Title>
-      <Accordion.Frame>
+      <AccordionTitle>Frequently Asked Questions</AccordionTitle>
+      <AccordionFrame>
         {faqsData.map((item) => (
-          <Accordion.Item key={item.id}>
-            <Accordion.Header>{item.header}</Accordion.Header>
-            <Accordion.Body>{item.body}</Accordion.Body>
-          </Accordion.Item>
+          <AccordionItem key={item.id}>
+            <AccordionHeader>{item.header}</AccordionHeader>
+            <AccordionBody>{item.body}</AccordionBody>
+          </AccordionItem>
         ))}
-      </Accordion.Frame>
+      </AccordionFrame>
 
       <OptForm>
-        <OptForm.Input placeholder="Email address" />
-        <OptForm.Button>Try it now</OptForm.Button>
-        <OptForm.Break />
-        <OptForm.Text>Ready to watch? Enter your email to create or restart your membership.</OptForm.Text>
+        <OptFormInput placeholder="Email address" />
+        <OptFormButton>Try it now</OptFormButton>
+        <OptFormBreak />
+        <OptFormText>Ready to watch? Enter your email to create or restart your membership.</OptFormText>
       </OptForm>
     </Accordion>
   );

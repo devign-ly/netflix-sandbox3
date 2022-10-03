@@ -10,6 +10,6 @@ export default function Loading({ src }) {
   );
 }
 
-Loading.ReleaseBody = function LoadingReleaseBody() {
+export function LoadingReleaseBody() {
   return <ReleaseBody />;
-};
+}
