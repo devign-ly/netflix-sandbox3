@@ -1,3 +1,11 @@
+import users from '../data/users.json';
+
+const AUTH_STATE_CHANGED = 'auth-state-changed';
+const RESPONSE_DELAY = 300;
+
+// This class is based on Firebase’s authentication system because this project used to use
+// Firebase. This is all very simple so the overall system (AuthContext, etc.) could probably be
+// simplified a lot too.
 class Auth extends EventTarget {
   constructor() {
     super();
@@ -6,33 +14,30 @@ class Auth extends EventTarget {
 
   signInWithEmailAndPassword(email, password) {
     return new Promise((resolve, reject) => {
-      if (
-        email &&
-        email.length > 0 &&
-        password &&
-        password.length > 0 &&
-        password !== 'bad'
-      ) {
-        const user = {
-          displayName: email,
-          photoURL: 1,
-        };
-        this.currentUser = user;
-        this.dispatchEvent(
-          new CustomEvent('auth-state-changed', {
-            detail: { user },
-          })
-        );
-        resolve();
+      const user = users.find(
+        (u) => u.email === email && u.password === password
+      );
+
+      if (user) {
+        setTimeout(() => {
+          resolve(user);
+          this.dispatchEvent(
+            new CustomEvent(AUTH_STATE_CHANGED, {
+              detail: { user },
+            })
+          );
+        }, RESPONSE_DELAY);
       } else {
-        reject(new Error('Wrong username or password'));
+        setTimeout(() => {
+          reject(new Error('Wrong username or password'));
+        }, RESPONSE_DELAY);
       }
     });
   }
 
   signOut() {
     this.dispatchEvent(
-      new CustomEvent('auth-state-changed', {
+      new CustomEvent(AUTH_STATE_CHANGED, {
         detail: { user: null },
       })
     );
@@ -43,10 +48,10 @@ class Auth extends EventTarget {
       callback(e.detail.user);
     };
 
-    this.addEventListener('auth-state-changed', listener);
+    this.addEventListener(AUTH_STATE_CHANGED, listener);
 
     return function unsubscribe() {
-      this.removeEventListener('auth-state-changed', listener);
+      this.removeEventListener(AUTH_STATE_CHANGED, listener);
     };
   }
 }

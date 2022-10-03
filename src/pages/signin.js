@@ -5,13 +5,15 @@ import { Form } from '../components';
 import { HeaderContainer } from '../containers/header';
 import { FooterContainer } from '../containers/footer';
 import * as ROUTES from '../constants/routes';
+import users from '../data/users.json';
 
 export default function SignIn() {
   const history = useHistory();
   const { auth } = useContext(AuthContext);
 
-  const [emailAddress, setEmailAddress] = useState('');
-  const [password, setPassword] = useState('');
+  const autofillUser = users[0];
+  const [emailAddress, setEmailAddress] = useState(autofillUser.email);
+  const [password, setPassword] = useState(autofillUser.password);
   const [error, setError] = useState('');
 
   const isInvalid = password === '' || emailAddress === '';
