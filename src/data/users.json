@@ -1,7 +1,7 @@
 [
-	{
-		"name": "Alex",
-		"email": "alex@devign.ly",
-		"password": "password"
-	}
+  {
+    "name": "Alex",
+    "email": "alex@devign.ly",
+    "password": "password"
+  }
 ]

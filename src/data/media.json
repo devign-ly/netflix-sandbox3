@@ -1,406 +1,406 @@
 {
-	"series": [
-		{
-			"id": "6dcb39e5-c2ea-4e60-a3ca-147ee1a75e25",
-			"title": "Tiger King",
-			"description": "An exploration of big cat breeding and its bizarre underworld, populated by eccentric characters.",
-			"genre": "documentaries",
-			"maturity": "18",
-			"slug": "tiger-king"
-		},
-		{
-			"id": "c38becf7-ecdb-4875-b2de-bc783890f706",
-			"title": "Amanda Knox",
-			"description": "Amanda Marie Knox is an American woman who spent almost four years in an Italian prison.",
-			"genre": "documentaries",
-			"maturity": "12",
-			"slug": "amanda-knox"
-		},
-		{
-			"id": "4d042d36-f7b4-40cd-9b9e-8e69bb654542",
-			"title": "Citizenfour",
-			"description": "Citizenfour is a 2014 documentary film directed by Laura Poitras, concerning Edward Snowden and the NSA spying scandal.",
-			"genre": "documentaries",
-			"maturity": "12",
-			"slug": "citizenfour"
-		},
-		{
-			"id": "5f85aae0-44f1-47b1-93be-10634523d31c",
-			"title": "Super Size Me",
-			"description": "Director Morgan Spurlock's social experiment in fast-food gastronomy sees him attempting to subsist uniquely on food from the McDonalds",
-			"genre": "documentaries",
-			"maturity": "12",
-			"slug": "super-size-me"
-		},
-		{
-			"id": "3d0a35ae-f6ca-4aff-a7d6-a02d90e124af",
-			"title": "Man on Wire",
-			"description": "Filmmaker James Marsh masterfully recreates high-wire daredevil Philippe Petit's 1974 stunt walking on a wire across the Twin Towers.",
-			"genre": "documentaries",
-			"maturity": "12",
-			"slug": "man-on-wire"
-		},
-		{
-			"id": "5cf26ca3-8d59-4e3a-9f8e-f1b894bf87f2",
-			"title": "The Office",
-			"description": "A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.",
-			"genre": "comedies",
-			"maturity": "15",
-			"slug": "the-office"
-		},
-		{
-			"id": "f4220c8f-e6d9-4977-8b2a-a9c32a472523",
-			"title": "Arrested Development",
-			"description": "The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud.",
-			"genre": "comedies",
-			"maturity": "15",
-			"slug": "arrested-development"
-		},
-		{
-			"id": "e846f892-d9a6-4c74-9d46-fe863cf9aa18",
-			"title": "Curb Your Enthusiasm",
-			"description": "Larry David, a famous television writer and producer, gets into various misadventures with his friends and celebrity colleagues in Los Angeles.",
-			"genre": "comedies",
-			"maturity": "15",
-			"slug": "curb-your-enthusiasm"
-		},
-		{
-			"id": "2c59c519-f343-4302-9a12-63db24c89fe9",
-			"title": "Family Guy",
-			"description": "Peter Griffin and his family of two teenagers, a smart dog, a devilish baby and his wife find themselves in some of the most hilarious scenarios.",
-			"genre": "comedies",
-			"maturity": "15",
-			"slug": "family-guy"
-		},
-		{
-			"id": "12f86cd9-b192-459c-a3d6-1a7c3edffb15",
-			"title": "South Park",
-			"description": "Four young, schoolgoing boys, Stan Marsh, Kyle Broflovski, Eric Cartman and Kenny McCormick, who live in South Park set out on various adventures.",
-			"genre": "comedies",
-			"maturity": "15",
-			"slug": "south-park"
-		},
-		{
-			"id": "07b15636-70f8-4969-8c1d-41e62db59088",
-			"title": "Peppa Pig",
-			"description": "Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "peppa-pig"
-		},
-		{
-			"id": "f4c5c15b-c102-41dd-9c44-3ff6e54b38c8",
-			"title": "Dora The Explorer",
-			"description": "Dora, a seven-year-old girl of Latin American descent, embarks upon numerous adventures in the wilderness with her friend Boots, a monkey, and a variety of fun and useful tools.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "dora-the-explorer"
-		},
-		{
-			"id": "59cacf4d-b512-400b-a21f-e0202dd085ff",
-			"title": "PAW Patrol",
-			"description": "Six brave puppies, captained by a tech-savvy ten-year-old boy, Ryder, work together to accomplish high-stakes rescue missions to safeguard the residents of the Adventure Bay community.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "paw-patrol"
-		},
-		{
-			"id": "4798126d-7444-422b-9b04-7f4f70e198af",
-			"title": "Arthur",
-			"description": "Bespectacled aardvark Arthur Read demonstrates to kids how to deal with such childhood traumas and challenges as homework, teachers and bullies.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "arthur"
-		},
-		{
-			"id": "72069920-ce6c-44cb-b708-71980110212c",
-			"title": "SpongeBob",
-			"description": "A yellow sea sponge named SpongeBob SquarePants lives in the city of Bikini Bottom deep in the Pacific Ocean. ",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "spongebob"
-		},
-		{
-			"id": "1ab98d75-7dfb-43f0-967d-82ae73266928",
-			"title": "Making a Murderer",
-			"description": "Exonerated after spending nearly two decades in prison for a crime he did not commit, Steven Avery filed suit against Manitowoc County, Wis., and several individuals involved with his arrest.",
-			"genre": "crime",
-			"maturity": "18",
-			"slug": "making-a-murderer"
-		},
-		{
-			"id": "436ffa26-25de-41f8-81fb-18b266127062",
-			"title": "Long Shot",
-			"description": "An innocent man is accused of murder, leading his attorney on a wild chase to confirm his alibi using raw footage from a television show.",
-			"genre": "crime",
-			"maturity": "18",
-			"slug": "long-shot"
-		},
-		{
-			"id": "4a4df83b-6206-434c-a7c7-e1431210cd85",
-			"title": "The Confession Killer",
-			"description": "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson, although his sentence would be commuted to life in prison in 1998.",
-			"genre": "crime",
-			"maturity": "18",
-			"slug": "the-confession-killer"
-		},
-		{
-			"id": "fbb9b1de-b5e6-43f5-9d21-ed13cc69df92",
-			"title": "The Innocent Man",
-			"description": "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson.",
-			"genre": "crime",
-			"maturity": "18",
-			"slug": "the-innocent-man"
-		},
-		{
-			"id": "d5721cf3-6dd6-47ff-971d-2747ae03f6ab",
-			"title": "The Staircase",
-			"description": "In 2001 novelist Michael Peterson's wife died, and he claimed she perished after falling down stairs at their home. The medical examiner, however, determined that she had been beaten with a weapon",
-			"genre": "crime",
-			"maturity": "18",
-			"slug": "the-staircase"
-		},
-		{
-			"id": "455b260d-d0a1-479e-9e83-43ff2eb2c59c",
-			"title": "Good Will Hunting",
-			"description": "Will Hunting, a genius in mathematics, solves all the difficult mathematical problems. When he faces an emotional crisis, he takes help from psychiatrist Dr Sean Maguireto, who helps him recover.",
-			"genre": "feel-good",
-			"maturity": "12",
-			"slug": "good-will-hunting"
-		},
-		{
-			"id": "0e121bf0-8e0b-4bac-b152-dad21d204887",
-			"title": "Forrest Gump",
-			"description": "Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up.",
-			"genre": "feel-good",
-			"maturity": "12",
-			"slug": "forrest-gump"
-		},
-		{
-			"id": "d0dd7089-487d-4e07-9949-71e2609e0edb",
-			"title": "Juno",
-			"description": "Social misfit Juno protects herself with a caustic wit, but her unplanned pregnancy has the teen getting more involved in the lives of her baby's adoptive parents than she expected.",
-			"genre": "feel-good",
-			"maturity": "12",
-			"slug": "juno"
-		},
-		{
-			"id": "d8062890-7316-4def-9b68-2fe07d637c88",
-			"title": "Midnight In Paris",
-			"description": "Gil arrives with his fiancee and her family in Paris for a vacation, even as he tries to finish his debut novel. He is beguiled by the city, which takes him to a time past, away from his fiancee.",
-			"genre": "feel-good",
-			"maturity": "12",
-			"slug": "midnight-in-paris"
-		},
-		{
-			"id": "bcc8c409-6c35-4216-bdd7-26fbc2614dd2",
-			"title": "School of Rock",
-			"description": "Dewey Finn, an amateur rock enthusiast, slyly takes up his friend's substitute teacher's job. Bearing no qualifications for it, he instead starts training the students to form a band.",
-			"genre": "feel-good",
-			"maturity": "12",
-			"slug": "school-of-rock"
-		}
-	],
-	"films": [
-		{
-			"id": "5ecc1662-64fa-4f4f-af23-1384d1dd7961",
-			"title": "The Prestige",
-			"description": "Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but with terrible consequences.",
-			"genre": "drama",
-			"maturity": "15",
-			"slug": "the-prestige"
-		},
-		{
-			"id": "191dcc5b-fdcc-43f0-80d1-da7dd4e9588b",
-			"title": "Fight Club",
-			"description": "Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.",
-			"genre": "drama",
-			"maturity": "15",
-			"slug": "fight-club"
-		},
-		{
-			"id": "a6b1bde5-2bb5-418c-a005-029cbdd47c9c",
-			"title": "Kings Speech",
-			"description": "King George VI tries to overcome his stammering problem with the help of speech therapist Lionel Logue and makes himself worthy enough to lead his country through World War II.",
-			"genre": "drama",
-			"maturity": "15",
-			"slug": "kings-speech"
-		},
-		{
-			"id": "1c449873-90c4-40c8-a2cd-09f17cdaa955",
-			"title": "The Revenant",
-			"description": "Hugh Glass, a legendary frontiersman, is severely injured in a bear attack and is abandoned by his hunting crew. He uses his skills to survive and take revenge on his companion, who betrayed him.",
-			"genre": "drama",
-			"maturity": "15",
-			"slug": "the-revenant"
-		},
-		{
-			"id": "69497cfe-9929-4f33-a531-8a7ec47e75b3",
-			"title": "The Social Network",
-			"description": "Mark Zuckerberg creates a social networking site, Facebook, with the help of his friend Eduardo Saverin. But soon, a string of lies tears their relationship apart even as Facebook connects people.",
-			"genre": "drama",
-			"maturity": "12",
-			"slug": "the-social-network"
-		},
-		{
-			"id": "b1a48d67-b619-4a51-9560-8b78099ea65d",
-			"title": "Shutter Island",
-			"description": "Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.",
-			"genre": "suspense",
-			"maturity": "15",
-			"slug": "shutter-island"
-		},
-		{
-			"id": "5a9a8ba3-d71d-4e5a-ac93-a6adbd391c1d",
-			"title": "Gone Girl",
-			"description": "Nick Dunne discovers that the entire media focus has shifted on him when his wife Amy Dunne disappears on the day of their fifth wedding anniversary.",
-			"genre": "suspense",
-			"maturity": "15",
-			"slug": "gone-girl"
-		},
-		{
-			"id": "0d9ca36b-e7bc-402e-83a3-476ccce5c257",
-			"title": "Prisoners",
-			"description": "When the police take time to find Keller Dover's daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life.",
-			"genre": "suspense",
-			"maturity": "15",
-			"slug": "prisoners"
-		},
-		{
-			"id": "9cbf9715-0314-4814-808e-ebdf311641a6",
-			"title": "Seven",
-			"description": "A serial killer begins murdering people according to the seven deadly sins. Two detectives, one new to the city and the other about to retire, are tasked with apprehending the criminal.",
-			"genre": "suspense",
-			"maturity": "15",
-			"slug": "seven"
-		},
-		{
-			"id": "753fe981-548e-47f8-98e5-1b11272193bb",
-			"title": "Zodiac",
-			"description": "Robert Graysmith, a cartoonist by profession, finds himself obsessively thinking about the Zodiac killer. He uses his puzzle-solving abilities to get closer to revealing the identity of the killer.",
-			"genre": "suspense",
-			"maturity": "15",
-			"slug": "zodiac"
-		},
-		{
-			"id": "eee47dd8-2518-497a-be47-c8c99f17e3d3",
-			"title": "Hotel Transylvania",
-			"description": "Dracula, who owns a high-end resort for monsters, attempts to keep his daughter from falling in love with Jonathan, a human.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "hotel-transylvania"
-		},
-		{
-			"id": "68cfbd38-3777-4200-bdf1-8cd1e1c0cbf2",
-			"title": "Despicable Me",
-			"description": "Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "despicable-me"
-		},
-		{
-			"id": "18578972-afa8-4cdd-91a4-8ec6f4bee56c",
-			"title": "Frozen",
-			"description": "Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who has the power to convert any object or person into ice.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "frozen"
-		},
-		{
-			"id": "143f622d-1689-4a0c-8dda-879a54859808",
-			"title": "Spirited Away",
-			"description": "In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) stumble upon a seemingly abandoned amusement park.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "spirited-away"
-		},
-		{
-			"id": "dd6237a3-1c71-4dbb-8db0-d7ad587420c6",
-			"title": "Up",
-			"description": "Carl, an old widower, goes off on an adventure in his flying house in search of Paradise Falls, his wife's dream destination.",
-			"genre": "children",
-			"maturity": "0",
-			"slug": "up"
-		},
-		{
-			"id": "d81bcbaf-1b18-4db3-a59a-90fcabeba231",
-			"title": "Joker",
-			"description": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.",
-			"genre": "thriller",
-			"maturity": "15",
-			"slug": "joker"
-		},
-		{
-			"id": "a91a231b-cfce-4ab4-9875-7bbd422753d0",
-			"title": "A Quiet Place",
-			"description": "The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
-			"genre": "thriller",
-			"maturity": "15",
-			"slug": "a-quiet-place"
-		},
-		{
-			"id": "23b2a451-7ea5-4ec7-b0b2-5017556584b9",
-			"title": "Black Swan",
-			"description": "Nina, a ballerina, gets the chance to play the White Swan, Princess Odette. But she finds herself slipping into madness when Thomas, the artistic director, decides that Lily might fit the role better.",
-			"genre": "thriller",
-			"maturity": "15",
-			"slug": "black-swan"
-		},
-		{
-			"id": "af0bf9fb-b14b-47d6-9efc-023d1b78fd7e",
-			"title": "Nightcrawler",
-			"description": "Louis Bloom, a petty thief, realises that he can make money by capturing photographs of criminal activities and starts resorting to extreme tactics to get them.",
-			"genre": "thriller",
-			"maturity": "15",
-			"slug": "nightcrawler"
-		},
-		{
-			"id": "1378b081-c4ac-4c62-9ea4-8d188f738e92",
-			"title": "The Silence of The Lambs",
-			"description": "Clarice Starling, an FBI agent, seeks help from Hannibal Lecter, a psychopathic serial killer and former psychiatrist, in order to apprehend another serial killer who has been claiming female victims.",
-			"genre": "thriller",
-			"maturity": "15",
-			"slug": "the-silence-of-the-lambs"
-		},
-		{
-			"id": "fa0cdc70-8147-4289-9756-64cd568b6b45",
-			"title": "A Star Is Born",
-			"description": "After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.",
-			"genre": "romance",
-			"maturity": "15",
-			"slug": "a-star-is-born"
-		},
-		{
-			"id": "6391ace2-5290-4d9d-ae70-3d85278c4bce",
-			"title": "Blue Valentine",
-			"description": "Dean and Cynthia are married with a daughter and their marriage is about to fall apart. Both come from dysfunctional families and struggle to make sense of their relationship.",
-			"genre": "romance",
-			"maturity": "15",
-			"slug": "blue-valentine"
-		},
-		{
-			"id": "c2fda15c-f010-4f55-ab6b-503212b62dde",
-			"title": "La La Land",
-			"description": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin...",
-			"genre": "romance",
-			"maturity": "15",
-			"slug": "la-la-land"
-		},
-		{
-			"id": "1e347ece-beb1-4887-9340-5902e6b73cb9",
-			"title": "The Notebook",
-			"description": "Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from Alzheimer's, on a daily basis out of his notebook.",
-			"genre": "romance",
-			"maturity": "15",
-			"slug": "the-notebook"
-		},
-		{
-			"id": "2a700991-26fa-4565-9c73-4c191aa6fe89",
-			"title": "Titanic",
-			"description": "Seventeen-year-old Rose hails from an aristocratic family and is set to be married. When she boards the Titanic, she meets Jack Dawson, an artist, and falls in love with him.",
-			"genre": "romance",
-			"maturity": "15",
-			"slug": "titanic"
-		}
-	]
+  "series": [
+    {
+      "id": "6dcb39e5-c2ea-4e60-a3ca-147ee1a75e25",
+      "title": "Tiger King",
+      "description": "An exploration of big cat breeding and its bizarre underworld, populated by eccentric characters.",
+      "genre": "documentaries",
+      "maturity": "18",
+      "slug": "tiger-king"
+    },
+    {
+      "id": "c38becf7-ecdb-4875-b2de-bc783890f706",
+      "title": "Amanda Knox",
+      "description": "Amanda Marie Knox is an American woman who spent almost four years in an Italian prison.",
+      "genre": "documentaries",
+      "maturity": "12",
+      "slug": "amanda-knox"
+    },
+    {
+      "id": "4d042d36-f7b4-40cd-9b9e-8e69bb654542",
+      "title": "Citizenfour",
+      "description": "Citizenfour is a 2014 documentary film directed by Laura Poitras, concerning Edward Snowden and the NSA spying scandal.",
+      "genre": "documentaries",
+      "maturity": "12",
+      "slug": "citizenfour"
+    },
+    {
+      "id": "5f85aae0-44f1-47b1-93be-10634523d31c",
+      "title": "Super Size Me",
+      "description": "Director Morgan Spurlock's social experiment in fast-food gastronomy sees him attempting to subsist uniquely on food from the McDonalds",
+      "genre": "documentaries",
+      "maturity": "12",
+      "slug": "super-size-me"
+    },
+    {
+      "id": "3d0a35ae-f6ca-4aff-a7d6-a02d90e124af",
+      "title": "Man on Wire",
+      "description": "Filmmaker James Marsh masterfully recreates high-wire daredevil Philippe Petit's 1974 stunt walking on a wire across the Twin Towers.",
+      "genre": "documentaries",
+      "maturity": "12",
+      "slug": "man-on-wire"
+    },
+    {
+      "id": "5cf26ca3-8d59-4e3a-9f8e-f1b894bf87f2",
+      "title": "The Office",
+      "description": "A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.",
+      "genre": "comedies",
+      "maturity": "15",
+      "slug": "the-office"
+    },
+    {
+      "id": "f4220c8f-e6d9-4977-8b2a-a9c32a472523",
+      "title": "Arrested Development",
+      "description": "The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud.",
+      "genre": "comedies",
+      "maturity": "15",
+      "slug": "arrested-development"
+    },
+    {
+      "id": "e846f892-d9a6-4c74-9d46-fe863cf9aa18",
+      "title": "Curb Your Enthusiasm",
+      "description": "Larry David, a famous television writer and producer, gets into various misadventures with his friends and celebrity colleagues in Los Angeles.",
+      "genre": "comedies",
+      "maturity": "15",
+      "slug": "curb-your-enthusiasm"
+    },
+    {
+      "id": "2c59c519-f343-4302-9a12-63db24c89fe9",
+      "title": "Family Guy",
+      "description": "Peter Griffin and his family of two teenagers, a smart dog, a devilish baby and his wife find themselves in some of the most hilarious scenarios.",
+      "genre": "comedies",
+      "maturity": "15",
+      "slug": "family-guy"
+    },
+    {
+      "id": "12f86cd9-b192-459c-a3d6-1a7c3edffb15",
+      "title": "South Park",
+      "description": "Four young, schoolgoing boys, Stan Marsh, Kyle Broflovski, Eric Cartman and Kenny McCormick, who live in South Park set out on various adventures.",
+      "genre": "comedies",
+      "maturity": "15",
+      "slug": "south-park"
+    },
+    {
+      "id": "07b15636-70f8-4969-8c1d-41e62db59088",
+      "title": "Peppa Pig",
+      "description": "Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "peppa-pig"
+    },
+    {
+      "id": "f4c5c15b-c102-41dd-9c44-3ff6e54b38c8",
+      "title": "Dora The Explorer",
+      "description": "Dora, a seven-year-old girl of Latin American descent, embarks upon numerous adventures in the wilderness with her friend Boots, a monkey, and a variety of fun and useful tools.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "dora-the-explorer"
+    },
+    {
+      "id": "59cacf4d-b512-400b-a21f-e0202dd085ff",
+      "title": "PAW Patrol",
+      "description": "Six brave puppies, captained by a tech-savvy ten-year-old boy, Ryder, work together to accomplish high-stakes rescue missions to safeguard the residents of the Adventure Bay community.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "paw-patrol"
+    },
+    {
+      "id": "4798126d-7444-422b-9b04-7f4f70e198af",
+      "title": "Arthur",
+      "description": "Bespectacled aardvark Arthur Read demonstrates to kids how to deal with such childhood traumas and challenges as homework, teachers and bullies.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "arthur"
+    },
+    {
+      "id": "72069920-ce6c-44cb-b708-71980110212c",
+      "title": "SpongeBob",
+      "description": "A yellow sea sponge named SpongeBob SquarePants lives in the city of Bikini Bottom deep in the Pacific Ocean. ",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "spongebob"
+    },
+    {
+      "id": "1ab98d75-7dfb-43f0-967d-82ae73266928",
+      "title": "Making a Murderer",
+      "description": "Exonerated after spending nearly two decades in prison for a crime he did not commit, Steven Avery filed suit against Manitowoc County, Wis., and several individuals involved with his arrest.",
+      "genre": "crime",
+      "maturity": "18",
+      "slug": "making-a-murderer"
+    },
+    {
+      "id": "436ffa26-25de-41f8-81fb-18b266127062",
+      "title": "Long Shot",
+      "description": "An innocent man is accused of murder, leading his attorney on a wild chase to confirm his alibi using raw footage from a television show.",
+      "genre": "crime",
+      "maturity": "18",
+      "slug": "long-shot"
+    },
+    {
+      "id": "4a4df83b-6206-434c-a7c7-e1431210cd85",
+      "title": "The Confession Killer",
+      "description": "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson, although his sentence would be commuted to life in prison in 1998.",
+      "genre": "crime",
+      "maturity": "18",
+      "slug": "the-confession-killer"
+    },
+    {
+      "id": "fbb9b1de-b5e6-43f5-9d21-ed13cc69df92",
+      "title": "The Innocent Man",
+      "description": "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson.",
+      "genre": "crime",
+      "maturity": "18",
+      "slug": "the-innocent-man"
+    },
+    {
+      "id": "d5721cf3-6dd6-47ff-971d-2747ae03f6ab",
+      "title": "The Staircase",
+      "description": "In 2001 novelist Michael Peterson's wife died, and he claimed she perished after falling down stairs at their home. The medical examiner, however, determined that she had been beaten with a weapon",
+      "genre": "crime",
+      "maturity": "18",
+      "slug": "the-staircase"
+    },
+    {
+      "id": "455b260d-d0a1-479e-9e83-43ff2eb2c59c",
+      "title": "Good Will Hunting",
+      "description": "Will Hunting, a genius in mathematics, solves all the difficult mathematical problems. When he faces an emotional crisis, he takes help from psychiatrist Dr Sean Maguireto, who helps him recover.",
+      "genre": "feel-good",
+      "maturity": "12",
+      "slug": "good-will-hunting"
+    },
+    {
+      "id": "0e121bf0-8e0b-4bac-b152-dad21d204887",
+      "title": "Forrest Gump",
+      "description": "Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up.",
+      "genre": "feel-good",
+      "maturity": "12",
+      "slug": "forrest-gump"
+    },
+    {
+      "id": "d0dd7089-487d-4e07-9949-71e2609e0edb",
+      "title": "Juno",
+      "description": "Social misfit Juno protects herself with a caustic wit, but her unplanned pregnancy has the teen getting more involved in the lives of her baby's adoptive parents than she expected.",
+      "genre": "feel-good",
+      "maturity": "12",
+      "slug": "juno"
+    },
+    {
+      "id": "d8062890-7316-4def-9b68-2fe07d637c88",
+      "title": "Midnight In Paris",
+      "description": "Gil arrives with his fiancee and her family in Paris for a vacation, even as he tries to finish his debut novel. He is beguiled by the city, which takes him to a time past, away from his fiancee.",
+      "genre": "feel-good",
+      "maturity": "12",
+      "slug": "midnight-in-paris"
+    },
+    {
+      "id": "bcc8c409-6c35-4216-bdd7-26fbc2614dd2",
+      "title": "School of Rock",
+      "description": "Dewey Finn, an amateur rock enthusiast, slyly takes up his friend's substitute teacher's job. Bearing no qualifications for it, he instead starts training the students to form a band.",
+      "genre": "feel-good",
+      "maturity": "12",
+      "slug": "school-of-rock"
+    }
+  ],
+  "films": [
+    {
+      "id": "5ecc1662-64fa-4f4f-af23-1384d1dd7961",
+      "title": "The Prestige",
+      "description": "Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but with terrible consequences.",
+      "genre": "drama",
+      "maturity": "15",
+      "slug": "the-prestige"
+    },
+    {
+      "id": "191dcc5b-fdcc-43f0-80d1-da7dd4e9588b",
+      "title": "Fight Club",
+      "description": "Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.",
+      "genre": "drama",
+      "maturity": "15",
+      "slug": "fight-club"
+    },
+    {
+      "id": "a6b1bde5-2bb5-418c-a005-029cbdd47c9c",
+      "title": "Kings Speech",
+      "description": "King George VI tries to overcome his stammering problem with the help of speech therapist Lionel Logue and makes himself worthy enough to lead his country through World War II.",
+      "genre": "drama",
+      "maturity": "15",
+      "slug": "kings-speech"
+    },
+    {
+      "id": "1c449873-90c4-40c8-a2cd-09f17cdaa955",
+      "title": "The Revenant",
+      "description": "Hugh Glass, a legendary frontiersman, is severely injured in a bear attack and is abandoned by his hunting crew. He uses his skills to survive and take revenge on his companion, who betrayed him.",
+      "genre": "drama",
+      "maturity": "15",
+      "slug": "the-revenant"
+    },
+    {
+      "id": "69497cfe-9929-4f33-a531-8a7ec47e75b3",
+      "title": "The Social Network",
+      "description": "Mark Zuckerberg creates a social networking site, Facebook, with the help of his friend Eduardo Saverin. But soon, a string of lies tears their relationship apart even as Facebook connects people.",
+      "genre": "drama",
+      "maturity": "12",
+      "slug": "the-social-network"
+    },
+    {
+      "id": "b1a48d67-b619-4a51-9560-8b78099ea65d",
+      "title": "Shutter Island",
+      "description": "Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.",
+      "genre": "suspense",
+      "maturity": "15",
+      "slug": "shutter-island"
+    },
+    {
+      "id": "5a9a8ba3-d71d-4e5a-ac93-a6adbd391c1d",
+      "title": "Gone Girl",
+      "description": "Nick Dunne discovers that the entire media focus has shifted on him when his wife Amy Dunne disappears on the day of their fifth wedding anniversary.",
+      "genre": "suspense",
+      "maturity": "15",
+      "slug": "gone-girl"
+    },
+    {
+      "id": "0d9ca36b-e7bc-402e-83a3-476ccce5c257",
+      "title": "Prisoners",
+      "description": "When the police take time to find Keller Dover's daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life.",
+      "genre": "suspense",
+      "maturity": "15",
+      "slug": "prisoners"
+    },
+    {
+      "id": "9cbf9715-0314-4814-808e-ebdf311641a6",
+      "title": "Seven",
+      "description": "A serial killer begins murdering people according to the seven deadly sins. Two detectives, one new to the city and the other about to retire, are tasked with apprehending the criminal.",
+      "genre": "suspense",
+      "maturity": "15",
+      "slug": "seven"
+    },
+    {
+      "id": "753fe981-548e-47f8-98e5-1b11272193bb",
+      "title": "Zodiac",
+      "description": "Robert Graysmith, a cartoonist by profession, finds himself obsessively thinking about the Zodiac killer. He uses his puzzle-solving abilities to get closer to revealing the identity of the killer.",
+      "genre": "suspense",
+      "maturity": "15",
+      "slug": "zodiac"
+    },
+    {
+      "id": "eee47dd8-2518-497a-be47-c8c99f17e3d3",
+      "title": "Hotel Transylvania",
+      "description": "Dracula, who owns a high-end resort for monsters, attempts to keep his daughter from falling in love with Jonathan, a human.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "hotel-transylvania"
+    },
+    {
+      "id": "68cfbd38-3777-4200-bdf1-8cd1e1c0cbf2",
+      "title": "Despicable Me",
+      "description": "Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "despicable-me"
+    },
+    {
+      "id": "18578972-afa8-4cdd-91a4-8ec6f4bee56c",
+      "title": "Frozen",
+      "description": "Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who has the power to convert any object or person into ice.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "frozen"
+    },
+    {
+      "id": "143f622d-1689-4a0c-8dda-879a54859808",
+      "title": "Spirited Away",
+      "description": "In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) stumble upon a seemingly abandoned amusement park.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "spirited-away"
+    },
+    {
+      "id": "dd6237a3-1c71-4dbb-8db0-d7ad587420c6",
+      "title": "Up",
+      "description": "Carl, an old widower, goes off on an adventure in his flying house in search of Paradise Falls, his wife's dream destination.",
+      "genre": "children",
+      "maturity": "0",
+      "slug": "up"
+    },
+    {
+      "id": "d81bcbaf-1b18-4db3-a59a-90fcabeba231",
+      "title": "Joker",
+      "description": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.",
+      "genre": "thriller",
+      "maturity": "15",
+      "slug": "joker"
+    },
+    {
+      "id": "a91a231b-cfce-4ab4-9875-7bbd422753d0",
+      "title": "A Quiet Place",
+      "description": "The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
+      "genre": "thriller",
+      "maturity": "15",
+      "slug": "a-quiet-place"
+    },
+    {
+      "id": "23b2a451-7ea5-4ec7-b0b2-5017556584b9",
+      "title": "Black Swan",
+      "description": "Nina, a ballerina, gets the chance to play the White Swan, Princess Odette. But she finds herself slipping into madness when Thomas, the artistic director, decides that Lily might fit the role better.",
+      "genre": "thriller",
+      "maturity": "15",
+      "slug": "black-swan"
+    },
+    {
+      "id": "af0bf9fb-b14b-47d6-9efc-023d1b78fd7e",
+      "title": "Nightcrawler",
+      "description": "Louis Bloom, a petty thief, realises that he can make money by capturing photographs of criminal activities and starts resorting to extreme tactics to get them.",
+      "genre": "thriller",
+      "maturity": "15",
+      "slug": "nightcrawler"
+    },
+    {
+      "id": "1378b081-c4ac-4c62-9ea4-8d188f738e92",
+      "title": "The Silence of The Lambs",
+      "description": "Clarice Starling, an FBI agent, seeks help from Hannibal Lecter, a psychopathic serial killer and former psychiatrist, in order to apprehend another serial killer who has been claiming female victims.",
+      "genre": "thriller",
+      "maturity": "15",
+      "slug": "the-silence-of-the-lambs"
+    },
+    {
+      "id": "fa0cdc70-8147-4289-9756-64cd568b6b45",
+      "title": "A Star Is Born",
+      "description": "After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.",
+      "genre": "romance",
+      "maturity": "15",
+      "slug": "a-star-is-born"
+    },
+    {
+      "id": "6391ace2-5290-4d9d-ae70-3d85278c4bce",
+      "title": "Blue Valentine",
+      "description": "Dean and Cynthia are married with a daughter and their marriage is about to fall apart. Both come from dysfunctional families and struggle to make sense of their relationship.",
+      "genre": "romance",
+      "maturity": "15",
+      "slug": "blue-valentine"
+    },
+    {
+      "id": "c2fda15c-f010-4f55-ab6b-503212b62dde",
+      "title": "La La Land",
+      "description": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin...",
+      "genre": "romance",
+      "maturity": "15",
+      "slug": "la-la-land"
+    },
+    {
+      "id": "1e347ece-beb1-4887-9340-5902e6b73cb9",
+      "title": "The Notebook",
+      "description": "Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from Alzheimer's, on a daily basis out of his notebook.",
+      "genre": "romance",
+      "maturity": "15",
+      "slug": "the-notebook"
+    },
+    {
+      "id": "2a700991-26fa-4565-9c73-4c191aa6fe89",
+      "title": "Titanic",
+      "description": "Seventeen-year-old Rose hails from an aristocratic family and is set to be married. When she boards the Titanic, she meets Jack Dawson, an artist, and falls in love with him.",
+      "genre": "romance",
+      "maturity": "15",
+      "slug": "titanic"
+    }
+  ]
 }
