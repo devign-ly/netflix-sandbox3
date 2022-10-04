@@ -35,7 +35,7 @@ export const Button = styled.button`
   color: white;
   text-transform: uppercase;
   padding: 0 32px;
-  font-size: 26px;
+  font-size: var(--font-size-lg);
   border: 0;
   cursor: pointer;
 
@@ -55,7 +55,7 @@ export const Button = styled.button`
 
   @media (max-width: 1000px) {
     height: 50px;
-    font-size: 16px;
+    font-size: var(--font-size-md);
     margin-top: 20px;
     font-weight: bold;
   }
@@ -67,7 +67,7 @@ export const Text = styled.p`
   text-align: center;
 
   @media (max-width: 600px) {
-    font-size: 16px;
+    font-size: var(--font-size-md);
     line-height: 22px;
   }
 `;

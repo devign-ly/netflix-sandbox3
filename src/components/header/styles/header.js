@@ -161,7 +161,7 @@ export const Dropdown = styled.div`
   }
 
   p {
-    font-size: 12px;
+    font-size: var(--font-size-sm);
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -196,7 +196,7 @@ export const Feature = styled(Container)`
 
 export const FeatureCallOut = styled.h2`
   color: white;
-  font-size: 50px;
+  font-size: var(--font-size-2xl);
   line-height: normal;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);

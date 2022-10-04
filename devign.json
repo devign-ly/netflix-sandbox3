@@ -6,6 +6,9 @@
 	"exclude": [
 		"__tests__"
 	],
+	"variables": [
+		"src/tokens.css"
+	],
 	"web_server_port": 3000,
 	"run": "yarn start",
 	"bypass_proxy": true,

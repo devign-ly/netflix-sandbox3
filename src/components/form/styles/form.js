@@ -39,7 +39,7 @@ export const Title = styled.h1`
 
 export const Text = styled.p`
   color: #737373;
-  font-size: 16px;
+  font-size: var(--font-size-md);
   font-weight: 500;
 `;
 
@@ -77,7 +77,7 @@ export const Input = styled.input`
 export const Submit = styled.button`
   background: #e50914;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: var(--font-size-md);
   font-weight: bold;
   margin: 24px 0 12px;
   padding: 16px;

@@ -18,7 +18,7 @@ export const Inner = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 50px;
+  font-size: var(--font-size-2xl);
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 8px;
@@ -26,7 +26,7 @@ export const Title = styled.h1`
   text-align: center;
 
   @media (max-width: 600px) {
-    font-size: 35px;
+    font-size: var(--font-size-xl);
   }
 `;
 
@@ -50,7 +50,7 @@ export const Header = styled.div`
   justify-content: space-between;
   cursor: pointer;
   margin-bottom: 1px;
-  font-size: 26px;
+  font-size: var(--font-size-lg);
   font-weight: normal;
   background: #303030;
   padding: 0.8em 1.2em 0.8em 1.2em;
@@ -68,12 +68,12 @@ export const Header = styled.div`
   }
 
   @media (max-width: 600px) {
-    font-size: 16px;
+    font-size: var(--font-size-md);
   }
 `;
 
 export const Body = styled.div`
-  font-size: 26px;
+  font-size: var(--font-size-lg);
   font-weight: normal;
   line-height: normal;
   background: #303030;
@@ -97,7 +97,7 @@ export const Body = styled.div`
   }
 
   @media (max-width: 600px) {
-    font-size: 16px;
+    font-size: var(--font-size-md);
     line-height: 22px;
   }
 `;

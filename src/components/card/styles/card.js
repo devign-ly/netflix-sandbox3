@@ -39,7 +39,7 @@ export const Group = styled.div`
 `;
 
 export const SubTitle = styled.p`
-  font-size: 12px;
+  font-size: var(--font-size-sm);
   color: #fff;
   font-weight: bold;
   margin-top: 0;
@@ -50,7 +50,7 @@ export const SubTitle = styled.p`
 
 export const Text = styled.p`
   margin-top: 5px;
-  font-size: 10px;
+  font-size: var(--font-size-xs);
   color: #fff;
   margin-bottom: 0;
   user-select: none;
@@ -195,5 +195,5 @@ export const Maturity = styled.div`
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-right: 10px;
-  font-size: 12px;
+  font-size: var(--font-size-sm);
 `;

@@ -27,7 +27,7 @@ export const List = styled.ul`
 export const Name = styled.p`
   color: #808080;
   text-overflow: ellipsis;
-  font-size: 16px;
+  font-size: var(--font-size-md);
 
   &:hover {
     font-weight: bold;
