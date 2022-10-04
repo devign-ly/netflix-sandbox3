@@ -16,7 +16,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --coverage --watchAll",
-    "lint": "eslint .",
+    "lint": "eslint src --ignore-pattern __tests__",
     "lint:fix": "eslint --fix ."
   },
   "resolutions": {
