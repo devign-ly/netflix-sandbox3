@@ -48,7 +48,8 @@ class Auth extends EventTarget {
 
     this.addEventListener(AUTH_STATE_CHANGED, listener);
 
-    return function unsubscribe() {
+    // Cleanup.
+    return () => {
       this.removeEventListener(AUTH_STATE_CHANGED, listener);
     };
   }
