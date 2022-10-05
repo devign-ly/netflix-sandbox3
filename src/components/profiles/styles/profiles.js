@@ -19,7 +19,7 @@ export const Title = styled.h1`
 
 export const List = styled.ul`
   padding: 0;
-  margin: 0;
+  margin: var(--space-0);
   display: flex;
   flex-direction: row;
 `;
@@ -48,7 +48,7 @@ export const Item = styled.li`
   max-width: 200px;
   list-style-type: none;
   text-align: center;
-  margin-right: 30px;
+  margin-right: var(--space-30);
 
   &:hover > ${Picture} {
     border: 3px solid white;
@@ -60,6 +60,6 @@ export const Item = styled.li`
   }
 
   &:last-of-type {
-    margin-right: 0;
+    margin-right: var(--space-0);
   }
 `;

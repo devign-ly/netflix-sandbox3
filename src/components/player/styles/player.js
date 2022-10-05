@@ -75,7 +75,7 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 0;
+  padding-left: var(--space-0);
 
   &:hover {
     transform: scale(1.05);

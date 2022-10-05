@@ -5,4 +5,13 @@
 	--font-size-md: 16px;
 	--font-size-sm: 12px;
 	--font-size-xs: 10px;
+
+	--space-0: 0;
+	--space-5: 5px;
+	--space-10: 10px;
+	--space-20: 20px;
+	--space-30: 30px;
+	--space-40: 40px;
+	--space-50: 50px;
+	--space-100: 100px;
 }

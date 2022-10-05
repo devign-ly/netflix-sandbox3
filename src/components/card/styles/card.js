@@ -6,22 +6,22 @@ export const Title = styled.p`
   font-weight: bold;
   margin-left: 56px;
   margin-right: 56px;
-  margin-top: 0;
+  margin-top: var(--space-0);
 `;
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-bottom: var(--space-50);
 
   > ${Title} {
     @media (max-width: 1000px) {
-      margin-left: 30px;
+      margin-left: var(--space-30);
     }
   }
 
   &:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: var(--space-0);
   }
 `;
 
@@ -42,17 +42,17 @@ export const SubTitle = styled.p`
   font-size: var(--font-size-sm);
   color: #fff;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: var(--space-0);
+  margin-bottom: var(--space-0);
   user-select: none;
   display: none;
 `;
 
 export const Text = styled.p`
-  margin-top: 5px;
+  margin-top: var(--space-5);
   font-size: var(--font-size-xs);
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: var(--space-0);
   user-select: none;
   display: none;
   line-height: normal;
@@ -78,13 +78,13 @@ export const Image = styled.img`
   cursor: pointer;
   height: auto;
   padding: 0;
-  margin: 0;
+  margin: var(--space-0);
 `;
 
 export const Item = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 5px;
+  margin-right: var(--space-5);
   position: relative;
   cursor: pointer;
   transition: transform 0.2s;
@@ -105,7 +105,7 @@ export const Item = styled.div`
     margin-left: 56px;
 
     @media (max-width: 1000px) {
-      margin-left: 30px;
+      margin-left: var(--space-30);
     }
   }
 
@@ -113,7 +113,7 @@ export const Item = styled.div`
     margin-right: 56px;
 
     @media (max-width: 1000px) {
-      margin-right: 30px;
+      margin-right: var(--space-30);
     }
   }
 `;
@@ -122,7 +122,7 @@ export const FeatureText = styled.p`
   font-size: 18px;
   color: white;
   font-weight: ${({ fontWeight }) => (fontWeight === 'bold' ? 'bold' : 'normal')};
-  margin: 0;
+  margin: var(--space-0);
 
   @media (max-width: 600px) {
     line-height: 22px;
@@ -147,7 +147,7 @@ export const Feature = styled.div`
     ${Title} {
       font-size: 20px;
       line-height: 20px;
-      margin-bottom: 10px;
+      margin-bottom: var(--space-10);
     }
     ${FeatureText} {
       font-size: 14px;
@@ -156,7 +156,7 @@ export const Feature = styled.div`
 `;
 
 export const FeatureTitle = styled(Title)`
-  margin-left: 0;
+  margin-left: var(--space-0);
 `;
 
 export const FeatureClose = styled.button`
@@ -194,6 +194,6 @@ export const Maturity = styled.div`
   color: white;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-right: 10px;
+  margin-right: var(--space-10);
   font-size: var(--font-size-sm);
 `;

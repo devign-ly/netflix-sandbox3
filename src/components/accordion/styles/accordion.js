@@ -6,7 +6,7 @@ export const Container = styled.div`
 `;
 
 export const Frame = styled.div`
-  margin-bottom: 40px;
+  margin-bottom: var(--space-40);
 `;
 
 export const Inner = styled.div`
@@ -20,7 +20,7 @@ export const Inner = styled.div`
 export const Title = styled.h1`
   font-size: var(--font-size-2xl);
   line-height: 1.1;
-  margin-top: 0;
+  margin-top: var(--space-0);
   margin-bottom: 8px;
   color: white;
   text-align: center;
@@ -33,7 +33,7 @@ export const Title = styled.h1`
 export const Item = styled.div`
   color: white;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: var(--space-10);
   max-width: 728px;
   width: 100%;
 
@@ -41,7 +41,7 @@ export const Item = styled.div`
     margin-top: 3em;
   }
   &:last-of-type {
-    margin-bottom: 0;
+    margin-bottom: var(--space-0);
   }
 `;
 

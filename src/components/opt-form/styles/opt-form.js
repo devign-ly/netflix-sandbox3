@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   height: 100%;
-  margin-top: 20px;
+  margin-top: var(--space-20);
   flex-wrap: wrap;
 
   @media (max-width: 1000px) {
@@ -40,7 +40,7 @@ export const Button = styled.button`
   cursor: pointer;
 
   img {
-    margin-left: 10px;
+    margin-left: var(--space-10);
     filter: brightness(0) invert(1);
     width: 24px;
 
@@ -56,7 +56,7 @@ export const Button = styled.button`
   @media (max-width: 1000px) {
     height: 50px;
     font-size: var(--font-size-md);
-    margin-top: 20px;
+    margin-top: var(--space-20);
     font-weight: bold;
   }
 `;

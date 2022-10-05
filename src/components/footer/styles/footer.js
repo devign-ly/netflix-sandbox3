@@ -30,7 +30,7 @@ export const Row = styled.div`
 
 export const Link = styled.a`
   color: #757575;
-  margin-bottom: 20px;
+  margin-bottom: var(--space-20);
   font-size: var(--font-size-sm);
   text-decoration: none;
 `;
@@ -38,13 +38,13 @@ export const Link = styled.a`
 export const Title = styled.p`
   font-size: var(--font-size-md);
   color: #757575;
-  margin-bottom: 40px;
+  margin-bottom: var(--space-40);
 `;
 
 export const Text = styled.p`
   font-size: var(--font-size-sm);
   color: #757575;
-  margin-bottom: 40px;
+  margin-bottom: var(--space-40);
 `;
 
 export const Break = styled.div`

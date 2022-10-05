@@ -31,7 +31,7 @@ export const Container = styled.div`
 export const Link = styled.p`
   color: #fff;
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: var(--space-30);
   font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
   cursor: pointer;
 
@@ -40,7 +40,7 @@ export const Link = styled.p`
   }
 
   &:last-of-type {
-    margin-right: 0;
+    margin-right: var(--space-0);
   }
 `;
 
@@ -141,10 +141,10 @@ export const Dropdown = styled.div`
   }
 
   ${Group} {
-    margin-bottom: 10px;
+    margin-bottom: var(--space-10);
 
     &:last-of-type {
-      margin-bottom: 0;
+      margin-bottom: var(--space-0);
     }
 
     ${Link} {
@@ -157,20 +157,20 @@ export const Dropdown = styled.div`
   }
 
   button {
-    margin-right: 10px;
+    margin-right: var(--space-10);
   }
 
   p {
     font-size: var(--font-size-sm);
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: var(--space-0);
+    margin-top: var(--space-0);
   }
 `;
 
 export const Profile = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  margin-left: var(--space-20);
   position: relative;
 
   button {
@@ -200,7 +200,7 @@ export const FeatureCallOut = styled.h2`
   line-height: normal;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
-  margin: 0;
+  margin: var(--space-0);
 `;
 
 export const Text = styled.p`
@@ -213,7 +213,7 @@ export const Text = styled.p`
 export const Logo = styled.img`
   height: 36px;
   width: 134px;
-  margin-right: 40px;
+  margin-right: var(--space-40);
 
   @media (min-width: 1449px) {
     height: 45px;
@@ -231,7 +231,7 @@ export const PlayButton = styled.button`
   max-width: 130px;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: var(--space-10);
   cursor: pointer;
   transition: background-color 0.5s ease;
 

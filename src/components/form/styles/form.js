@@ -11,7 +11,7 @@ export const Container = styled.div`
   margin: auto;
   max-width: 450px;
   padding: 60px 68px 40px;
-  margin-bottom: 100px;
+  margin-bottom: var(--space-100);
 `;
 
 export const Error = styled.div`
@@ -44,7 +44,7 @@ export const Text = styled.p`
 `;
 
 export const TextSmall = styled.p`
-  margin-top: 10px;
+  margin-top: var(--space-10);
   font-size: var(--font-size-sm);
   line-height: normal;
   color: #8c8c8c;
@@ -67,10 +67,10 @@ export const Input = styled.input`
   height: 50px;
   line-height: 50px;
   padding: 5px 20px;
-  margin-bottom: 20px;
+  margin-bottom: var(--space-20);
 
   &:last-of-type {
-    margin-bottom: 30px;
+    margin-bottom: var(--space-30);
   }
 `;
 
