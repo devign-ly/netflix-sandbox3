@@ -5,23 +5,23 @@ export const Container = styled.div`
   flex-direction: column;
   border-bottom: 8px solid #222;
   text-align: center;
-  padding: 165px 45px;
+  padding: 165px 40px;
 `;
 
 export const Title = styled.h1`
   color: white;
   max-width: 640px;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
   font-weight: 500;
   margin: auto;
   @media (max-width: 600px) {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-2xl);
   }
 `;
 
 export const SubTitle = styled.h2`
   color: white;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: normal;
   margin: 16px auto;
 

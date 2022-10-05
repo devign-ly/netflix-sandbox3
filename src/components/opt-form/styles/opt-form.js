@@ -35,7 +35,7 @@ export const Button = styled.button`
   color: white;
   text-transform: uppercase;
   padding: 0 32px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   border: 0;
   cursor: pointer;
 
@@ -62,10 +62,9 @@ export const Button = styled.button`
 `;
 
 export const Text = styled.p`
-  font-size: 19.2px;
+  font-size: var(--font-size-lg);
   color: white;
   text-align: center;
-
   @media (max-width: 600px) {
     font-size: var(--font-size-md);
     line-height: 22px;

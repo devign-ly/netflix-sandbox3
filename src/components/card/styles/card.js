@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const Title = styled.p`
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   color: #e5e5e5;
   font-weight: bold;
   margin-left: 56px;
@@ -145,7 +145,7 @@ export const Feature = styled.div`
     background-size: auto;
 
     ${Title} {
-      font-size: 20px;
+      font-size: var(--font-size-lg);
       line-height: 20px;
       margin-bottom: var(--space-10);
     }

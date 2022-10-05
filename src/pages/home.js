@@ -17,7 +17,7 @@ export default function Home() {
             <OptFormInput placeholder="Email address" />
             <OptFormButton>Try it now</OptFormButton>
             <OptFormBreak />
-            <OptFormText>Ready to watch? Enter your email to create or restart your membership.</OptFormText>
+            <OptFormText>Ready to watch? Enter your email to create or restart your&nbsp;membership.</OptFormText>
           </OptForm>
         </Feature>
       </HeaderContainer>

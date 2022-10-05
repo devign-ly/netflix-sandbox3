@@ -196,7 +196,7 @@ export const Feature = styled(Container)`
 
 export const FeatureCallOut = styled.h2`
   color: white;
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
   line-height: normal;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
@@ -230,7 +230,7 @@ export const PlayButton = styled.button`
   border-radius: 5px;
   max-width: 130px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: var(--font-size-lg);
   margin-top: var(--space-10);
   cursor: pointer;
   transition: background-color 0.5s ease;

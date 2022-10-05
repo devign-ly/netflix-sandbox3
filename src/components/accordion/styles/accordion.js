@@ -18,7 +18,7 @@ export const Inner = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
   line-height: 1.1;
   margin-top: var(--space-0);
   margin-bottom: 8px;
@@ -26,7 +26,7 @@ export const Title = styled.h1`
   text-align: center;
 
   @media (max-width: 600px) {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-2xl);
   }
 `;
 
@@ -50,7 +50,7 @@ export const Header = styled.div`
   justify-content: space-between;
   cursor: pointer;
   margin-bottom: 1px;
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: normal;
   background: #303030;
   padding: 0.8em 1.2em 0.8em 1.2em;
@@ -73,7 +73,7 @@ export const Header = styled.div`
 `;
 
 export const Body = styled.div`
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   font-weight: normal;
   line-height: normal;
   background: #303030;
