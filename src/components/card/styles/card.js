@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 export const Title = styled.p`
-  font-size: 24px;
+  font-size: var(--font-size-lg);
   color: #e5e5e5;
   font-weight: bold;
   margin-left: 56px;

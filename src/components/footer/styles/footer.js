@@ -31,7 +31,7 @@ export const Row = styled.div`
 export const Link = styled.a`
   color: #757575;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: var(--font-size-sm);
   text-decoration: none;
 `;
 
@@ -42,7 +42,7 @@ export const Title = styled.p`
 `;
 
 export const Text = styled.p`
-  font-size: 13px;
+  font-size: var(--font-size-sm);
   color: #757575;
   margin-bottom: 40px;
 `;

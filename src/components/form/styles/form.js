@@ -32,7 +32,7 @@ export const Base = styled.form`
 
 export const Title = styled.h1`
   color: #fff;
-  font-size: 32px;
+  font-size: var(--font-size-xl);
   font-weight: bold;
   margin-bottom: 28px;
 `;
@@ -45,7 +45,7 @@ export const Text = styled.p`
 
 export const TextSmall = styled.p`
   margin-top: 10px;
-  font-size: 13px;
+  font-size: var(--font-size-sm);
   line-height: normal;
   color: #8c8c8c;
 `;
