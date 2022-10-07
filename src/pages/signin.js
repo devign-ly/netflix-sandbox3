@@ -68,7 +68,7 @@ export default function SignIn() {
           </FormBase>
 
           <FormText>
-            New to Netflix? <FormLink to="/signup">Sign up now.</FormLink>
+            New to Netflix? <FormLink to="/">Sign up now.</FormLink>
           </FormText>
           <FormTextSmall>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.

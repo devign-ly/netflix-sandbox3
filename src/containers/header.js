@@ -3,12 +3,12 @@ import Header, { HeaderFrame, HeaderLogo, HeaderButtonLink } from '../components
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
 
-export function HeaderContainer({ children }) {
+export function HeaderContainer({ showSignIn, children }) {
   return (
     <Header>
       <HeaderFrame>
         <HeaderLogo to={ROUTES.HOME} src={logo} alt="Netflix" />
-        <HeaderButtonLink to={ROUTES.SIGN_IN}>Sign In</HeaderButtonLink>
+        {showSignIn && <HeaderButtonLink to={ROUTES.SIGN_IN}>Sign In</HeaderButtonLink>}
       </HeaderFrame>
       {children}
     </Header>

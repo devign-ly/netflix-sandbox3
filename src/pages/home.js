@@ -9,7 +9,7 @@ import { FooterContainer } from '../containers/footer';
 export default function Home() {
   return (
     <>
-      <HeaderContainer>
+      <HeaderContainer showSignIn>
         <Feature>
           <FeatureTitle>Unlimited movies, TV shows, and more.</FeatureTitle>
           <FeatureSubTitle>Watch anywhere. Cancel at any time.</FeatureSubTitle>
