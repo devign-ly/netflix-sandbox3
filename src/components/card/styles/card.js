@@ -1,9 +1,10 @@
 import styled from 'styled-components/macro';
 
 export const Title = styled.p`
-  font-size: var(--font-size-xl);
+  font-family: var(--font-title);
+  font-size: var(--text-xl);
   color: #e5e5e5;
-  font-weight: bold;
+  font-weight: var(--font-semibold);
   margin-left: 56px;
   margin-right: 56px;
   margin-top: var(--space-0);
@@ -39,9 +40,10 @@ export const Group = styled.div`
 `;
 
 export const SubTitle = styled.p`
-  font-size: var(--font-size-sm);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
   color: #fff;
-  font-weight: bold;
+  font-weight: var(--font-bold);
   margin-top: var(--space-0);
   margin-bottom: var(--space-0);
   user-select: none;
@@ -50,7 +52,8 @@ export const SubTitle = styled.p`
 
 export const Text = styled.p`
   margin-top: var(--space-5);
-  font-size: var(--font-size-xs);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
   color: #fff;
   margin-bottom: var(--space-0);
   user-select: none;
@@ -119,6 +122,7 @@ export const Item = styled.div`
 `;
 
 export const FeatureText = styled.p`
+  font-family: var(--font-body);
   font-size: 18px;
   color: white;
   font-weight: ${({ fontWeight }) => (fontWeight === 'bold' ? 'bold' : 'normal')};
@@ -145,7 +149,7 @@ export const Feature = styled.div`
     background-size: auto;
 
     ${Title} {
-      font-size: var(--font-size-lg);
+      font-size: var(--text-lg);
       line-height: 20px;
       margin-bottom: var(--space-10);
     }
@@ -192,8 +196,9 @@ export const Maturity = styled.div`
   line-height: 28px;
   text-align: center;
   color: white;
-  font-weight: bold;
+  font-family: var(--font-body);
+  font-weight: var(--font-bold);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-right: var(--space-10);
-  font-size: var(--font-size-sm);
+  font-size: var(--text-sm);
 `;

@@ -12,9 +12,10 @@ export const Container = styled.div`
 export const Title = styled.h1`
   width: 100%;
   color: #fff;
-  font-size: var(--font-size-3xl);
+  font-family: var(--font-title);
+  font-size: var(--text-3xl);
   text-align: center;
-  font-weight: 500;
+  font-weight: var(--font-semibold);
 `;
 
 export const List = styled.ul`
@@ -27,10 +28,10 @@ export const List = styled.ul`
 export const Name = styled.p`
   color: #808080;
   text-overflow: ellipsis;
-  font-size: var(--font-size-md);
-
+  font-size: var(--text-md);
+  font-family: var(--font-body);
   &:hover {
-    font-weight: bold;
+    font-weight: var(--font-bold);
     color: #e5e5e5;
   }
 `;
@@ -55,7 +56,7 @@ export const Item = styled.li`
   }
 
   &:hover ${Name} {
-    font-weight: bold;
+    font-weight: var(--font-bold);
     color: white;
   }
 

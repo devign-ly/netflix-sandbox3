@@ -32,22 +32,25 @@ export const Base = styled.form`
 
 export const Title = styled.h1`
   color: #fff;
-  font-size: var(--font-size-2xl);
-  font-weight: bold;
+  font-family: var(--font-title);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-semibold);
   margin-bottom: 28px;
 `;
 
 export const Text = styled.p`
   color: #737373;
-  font-size: var(--font-size-md);
-  font-weight: 500;
+  font-size: var(--text-md);
+  font-weight: var(--font-medium);
+  font-family: var(--font-body);
 `;
 
 export const TextSmall = styled.p`
   margin-top: var(--space-10);
-  font-size: var(--font-size-sm);
+  font-size: var(--text-sm);
   line-height: normal;
   color: #8c8c8c;
+  font-family: var(--font-body);
 `;
 
 export const Link = styled(ReachRouterLink)`
@@ -68,7 +71,7 @@ export const Input = styled.input`
   line-height: 50px;
   padding: 5px 20px;
   margin-bottom: var(--space-20);
-
+  font-family: var(--font-body);
   &:last-of-type {
     margin-bottom: var(--space-30);
   }
@@ -77,14 +80,14 @@ export const Input = styled.input`
 export const Submit = styled.button`
   background: #e50914;
   border-radius: 4px;
-  font-size: var(--font-size-md);
-  font-weight: bold;
+  font-size: var(--text-md);
+  font-weight: var(--font-bold);
   margin: 24px 0 12px;
   padding: 16px;
   border: 0;
   color: white;
   cursor: pointer;
-
+  font-family: var(--font-body);
   &:disabled {
     opacity: 0.5;
   }

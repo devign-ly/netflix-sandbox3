@@ -6,10 +6,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   html, body {
     height: 100%;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #000000;
     color: #333333;
-    font-size: var(--font-size-md);
+    font-size: var(--text-md);
 }`;

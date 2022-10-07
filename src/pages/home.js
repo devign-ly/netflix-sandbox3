@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <HeaderContainer>
         <Feature>
-          <FeatureTitle>Unlimited movies, TV shows and more.</FeatureTitle>
+          <FeatureTitle>Unlimited movies, TV shows, and more.</FeatureTitle>
           <FeatureSubTitle>Watch anywhere. Cancel at any time.</FeatureSubTitle>
           <OptForm>
             <OptFormInput placeholder="Email address" />

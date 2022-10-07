@@ -1,18 +1,27 @@
 :root {
-	--font-size-3xl: 50px;
-	--font-size-2xl: 35px;
-	--font-size-xl: 26px;
-	--font-size-lg: 20px;
-	--font-size-md: 16px;
-	--font-size-sm: 12px;
-	--font-size-xs: 10px;
+  --text-4xl: 65px;
+  --text-3xl: 50px;
+  --text-2xl: 35px;
+  --text-xl: 25px;
+  --text-lg: 20px;
+  --text-md: 16px;
+  --text-sm: 12px;
+  --text-xs: 10px;
 
-	--space-0: 0;
-	--space-5: 5px;
-	--space-10: 10px;
-	--space-20: 20px;
-	--space-30: 30px;
-	--space-40: 40px;
-	--space-50: 50px;
-	--space-100: 100px;
+  --font-title: 'Avenir Next', 'Gil Sans', Helvetica, Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --space-0: 0;
+  --space-5: 5px;
+  --space-10: 10px;
+  --space-20: 20px;
+  --space-30: 30px;
+  --space-40: 40px;
+  --space-50: 50px;
+  --space-100: 100px;
 }

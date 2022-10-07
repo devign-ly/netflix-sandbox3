@@ -18,7 +18,8 @@ export const Inner = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: var(--font-size-3xl);
+  font-family: var(--font-title);
+  font-size: var(--text-3xl);
   line-height: 1.1;
   margin-top: var(--space-0);
   margin-bottom: 8px;
@@ -26,7 +27,7 @@ export const Title = styled.h1`
   text-align: center;
 
   @media (max-width: 600px) {
-    font-size: var(--font-size-2xl);
+    font-size: var(--text-2xl);
   }
 `;
 
@@ -50,8 +51,9 @@ export const Header = styled.div`
   justify-content: space-between;
   cursor: pointer;
   margin-bottom: 1px;
-  font-size: var(--font-size-xl);
-  font-weight: normal;
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  font-weight: var(--font-regular);
   background: #303030;
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
@@ -68,13 +70,14 @@ export const Header = styled.div`
   }
 
   @media (max-width: 600px) {
-    font-size: var(--font-size-md);
+    font-size: var(--text-md);
   }
 `;
 
 export const Body = styled.div`
-  font-size: var(--font-size-xl);
-  font-weight: normal;
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  font-weight: var(--font-regular);
   line-height: normal;
   background: #303030;
   white-space: pre-wrap;
@@ -97,7 +100,7 @@ export const Body = styled.div`
   }
 
   @media (max-width: 600px) {
-    font-size: var(--font-size-md);
+    font-size: var(--text-md);
     line-height: 22px;
   }
 `;

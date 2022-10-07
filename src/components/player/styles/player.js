@@ -67,8 +67,9 @@ export const Button = styled.button`
   width: 115px;
   height: 45px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: var(--font-bold);
   color: white;
+  font-family: var(--font-body);
   font-size: 18px;
   height: 45px;
   cursor: pointer;

@@ -31,18 +31,18 @@ export const Row = styled.div`
 export const Link = styled.a`
   color: #757575;
   margin-bottom: var(--space-20);
-  font-size: var(--font-size-sm);
+  font-size: var(--text-sm);
   text-decoration: none;
 `;
 
 export const Title = styled.p`
-  font-size: var(--font-size-md);
+  font-size: var(--text-md);
   color: #757575;
   margin-bottom: var(--space-40);
 `;
 
 export const Text = styled.p`
-  font-size: var(--font-size-sm);
+  font-size: var(--text-sm);
   color: #757575;
   margin-bottom: var(--space-40);
 `;

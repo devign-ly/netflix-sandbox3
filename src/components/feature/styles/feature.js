@@ -11,18 +11,20 @@ export const Container = styled.div`
 export const Title = styled.h1`
   color: white;
   max-width: 640px;
-  font-size: var(--font-size-3xl);
-  font-weight: 500;
+  font-family: var(--font-title);
+  font-size: var(--text-4xl);
+  font-weight: var(--font-semibold);
   margin: auto;
   @media (max-width: 600px) {
-    font-size: var(--font-size-2xl);
+    font-size: var(--text-2xl);
   }
 `;
 
 export const SubTitle = styled.h2`
   color: white;
-  font-size: var(--font-size-xl);
-  font-weight: normal;
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  font-weight: var(--font-regular);
   margin: 16px auto;
 
   @media (max-width: 600px) {

@@ -34,11 +34,10 @@ export const Link = styled.p`
   margin-right: var(--space-30);
   font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
   cursor: pointer;
-
+  font-family: var(--font-body);
   &:hover {
-    font-weight: bold;
+    font-weight: var(--font-bold);
   }
-
   &:last-of-type {
     margin-right: var(--space-0);
   }
@@ -55,6 +54,7 @@ export const SearchInput = styled.input`
   border: 1px solid white;
   transition: width 0.5s;
   height: 30px;
+  font-family: var(--font-body);
   font-size: 14px;
   border-radius: 4px;
   margin-left: ${({ active }) => (active === true ? '10px' : '0')};
@@ -106,6 +106,7 @@ export const ButtonLink = styled(ReachRouterLink)`
   height: fit-content;
   color: white;
   border: 0;
+  font-family: var(--font-body);
   font-size: 15px;
   border-radius: 3px;
   padding: 8px 17px;
@@ -161,7 +162,7 @@ export const Dropdown = styled.div`
   }
 
   p {
-    font-size: var(--font-size-sm);
+    font-size: var(--text-sm);
     margin-bottom: var(--space-0);
     margin-top: var(--space-0);
   }
@@ -196,15 +197,17 @@ export const Feature = styled(Container)`
 
 export const FeatureCallOut = styled.h2`
   color: white;
-  font-size: var(--font-size-3xl);
+  font-family: var(--font-title);
+  font-size: var(--text-3xl);
   line-height: normal;
-  font-weight: bold;
+  font-weight: var(--font-semibold);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
   margin: var(--space-0);
 `;
 
 export const Text = styled.p`
   color: white;
+  font-family: var(--font-body);
   font-size: 22px;
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
@@ -229,8 +232,9 @@ export const PlayButton = styled.button`
   padding: 10px 20px;
   border-radius: 5px;
   max-width: 130px;
-  font-weight: bold;
-  font-size: var(--font-size-lg);
+  font-family: var(--font-body);
+  font-weight: var(--font-bold);
+  font-size: var(--text-lg);
   margin-top: var(--space-10);
   cursor: pointer;
   transition: background-color 0.5s ease;
