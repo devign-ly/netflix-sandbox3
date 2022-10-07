@@ -1,18 +1,10 @@
 import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
 import { AuthContext } from '../context/auth';
-import Form, {
-  FormTitle,
-  FormError,
-  FormBase,
-  FormInput,
-  FormSubmit,
-  FormText,
-  FormLink,
-  FormTextSmall,
-} from '../components/form';
+import Form, { FormTitle, FormError, FormBase, FormInput, FormText, FormLink, FormTextSmall } from '../components/form';
 import { HeaderContainer } from '../containers/header';
 import { FooterContainer } from '../containers/footer';
+import Button from '../components/button';
 import * as ROUTES from '../constants/routes';
 import users from '../data/users.json';
 
@@ -62,9 +54,9 @@ export default function SignIn() {
               placeholder="Password"
               onChange={({ target }) => setPassword(target.value)}
             />
-            <FormSubmit disabled={isInvalid} type="submit" data-testid="sign-in">
+            <Button size="large" disabled={isInvalid} type="submit" data-testid="sign-in">
               Sign In
-            </FormSubmit>
+            </Button>
           </FormBase>
 
           <FormText>

@@ -73,22 +73,6 @@ export const Input = styled.input`
   margin-bottom: var(--space-20);
   font-family: var(--font-body);
   &:last-of-type {
-    margin-bottom: var(--space-30);
-  }
-`;
-
-export const Submit = styled.button`
-  background: #e50914;
-  border-radius: 4px;
-  font-size: var(--text-md);
-  font-weight: var(--font-bold);
-  margin: 24px 0 12px;
-  padding: 16px;
-  border: 0;
-  color: white;
-  cursor: pointer;
-  font-family: var(--font-body);
-  &:disabled {
-    opacity: 0.5;
+    margin-bottom: var(--space-40);
   }
 `;

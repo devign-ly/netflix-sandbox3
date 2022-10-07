@@ -12,7 +12,6 @@ import {
   FeatureCallOut,
   SearchIcon,
   SearchInput,
-  ButtonLink,
   PlayButton,
   Text,
   Feature,
@@ -98,8 +97,4 @@ export function HeaderFeatureCallOut({ children }) {
 
 export function HeaderText({ children }) {
   return <Text>{children}</Text>;
-}
-
-export function HeaderButtonLink({ to, children }) {
-  return <ButtonLink to={to}>{children}</ButtonLink>;
 }

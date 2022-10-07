@@ -1,5 +1,6 @@
 import React from 'react';
-import Header, { HeaderFrame, HeaderLogo, HeaderButtonLink } from '../components/header';
+import Header, { HeaderFrame, HeaderLogo } from '../components/header';
+import Button from '../components/button';
 import * as ROUTES from '../constants/routes';
 import logo from '../logo.svg';
 
@@ -8,7 +9,11 @@ export function HeaderContainer({ showSignIn, children }) {
     <Header>
       <HeaderFrame>
         <HeaderLogo to={ROUTES.HOME} src={logo} alt="Netflix" />
-        {showSignIn && <HeaderButtonLink to={ROUTES.SIGN_IN}>Sign In</HeaderButtonLink>}
+        {showSignIn && (
+          <Button to={ROUTES.SIGN_IN} element="link">
+            Sign In
+          </Button>
+        )}
       </HeaderFrame>
       {children}
     </Header>
