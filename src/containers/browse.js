@@ -44,9 +44,11 @@ export function BrowseContainer({ slides }) {
   const { auth } = useContext(AuthContext);
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500);
+    if (profile.name) {
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    }
   }, [profile.name]);
 
   useEffect(() => {
