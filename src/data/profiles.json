@@ -1,14 +1,29 @@
 [
   {
     "name": "Kids",
-    "avatar": 3
+    "avatar": 3,
+    "header": {
+      "title": "Spirited Away",
+      "image": "spirited-away",
+      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+    }
   },
   {
     "name": "Jess",
-    "avatar": 2
+    "avatar": 2,
+    "header": {
+      "title": "Joker",
+      "image": "joker",
+      "description": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks — the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him."
+    }
   },
   {
     "name": "Alex",
-    "avatar": 4
+    "avatar": 4,
+    "header": {
+      "title": "Man on Wire",
+      "image": "man-on-wire",
+      "description": "A look at tightrope walker Philippe Petit's daring, but illegal, high-wire routine performed between New York City's World Trade Center's twin towers in 1974, what some consider, “the artistic crime of the century”."
+    }
   }
 ]
