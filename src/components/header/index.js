@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link as ReachRouterLink } from 'react-router-dom';
+import { Link as ReactRouterLink } from 'react-router-dom';
 import {
   Container,
   Group,
@@ -38,9 +38,9 @@ export function HeaderGroup({ children }) {
 
 export function HeaderLogo({ to, src, alt }) {
   return (
-    <ReachRouterLink to={to}>
+    <ReactRouterLink to={to}>
       <Logo src={src} alt={alt} />
-    </ReachRouterLink>
+    </ReactRouterLink>
   );
 }
 
