@@ -1,12 +1,5 @@
 import React from 'react';
-import Footer, {
-  FooterTitle,
-  FooterRow,
-  FooterColumn,
-  FooterLink,
-  FooterBreak,
-  FooterText,
-} from '../components/footer';
+import Footer, { FooterTitle, FooterRow, FooterColumn, FooterLink, FooterBreak } from '../components/footer';
 
 export function FooterContainer() {
   return (
@@ -43,8 +36,6 @@ export function FooterContainer() {
           <FooterLink href="#">Legal Notices</FooterLink>
         </FooterColumn>
       </FooterRow>
-      <FooterBreak />
-      <FooterText>Netflix United Kingdom</FooterText>
     </Footer>
   );
 }

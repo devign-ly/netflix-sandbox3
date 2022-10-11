@@ -41,12 +41,6 @@ export const Title = styled.p`
   margin-bottom: var(--space-40);
 `;
 
-export const Text = styled.p`
-  font-size: var(--text-sm);
-  color: #757575;
-  margin-bottom: var(--space-40);
-`;
-
 export const Break = styled.div`
   flex-basis: 100%;
   height: 0;
