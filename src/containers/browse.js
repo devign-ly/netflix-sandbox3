@@ -75,8 +75,12 @@ export function BrowseContainer({ slides }) {
     }
   };
 
-  return profile.name ? (
-    <>
+  if (!profile.name) {
+    return <SelectProfileContainer setProfile={setProfile} />;
+  }
+
+  return (
+    <div>
       {loading ? <Loading src={profile.avatar} /> : <LoadingReleaseBody />}
 
       <Header src={profile.header.image} dontShowOnSmallViewPort>
@@ -141,8 +145,6 @@ export function BrowseContainer({ slides }) {
         ))}
       </CardGroup>
       <FooterContainer />
-    </>
-  ) : (
-    <SelectProfileContainer setProfile={setProfile} />
+    </div>
   );
 }

@@ -77,7 +77,9 @@ export function CardImage({ src }) {
 export function CardFeature({ children, category }) {
   const { showFeature, itemFeature, setShowFeature } = useContext(FeatureContext);
 
-  return showFeature ? (
+  if (!showFeature) return null;
+
+  return (
     <Feature src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.jpg`}>
       <Content>
         <FeatureTitle>{itemFeature.title}</FeatureTitle>
@@ -96,5 +98,5 @@ export function CardFeature({ children, category }) {
         {children}
       </Content>
     </Feature>
-  ) : null;
+  );
 }

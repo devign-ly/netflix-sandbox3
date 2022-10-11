@@ -19,13 +19,14 @@ import {
 } from './styles/header';
 
 export default function Header({ src, dontShowOnSmallViewPort, bg = true, children }) {
-  return bg ? (
-    <Background data-testid="header-bg" src={src} dontShowOnSmallViewPort={dontShowOnSmallViewPort}>
-      {children}
-    </Background>
-  ) : (
-    children
-  );
+  if (bg) {
+    return (
+      <Background data-testid="header-bg" src={src} dontShowOnSmallViewPort={dontShowOnSmallViewPort}>
+        {children}
+      </Background>
+    );
+  }
+  return children;
 }
 
 export function HeaderFrame({ children }) {
