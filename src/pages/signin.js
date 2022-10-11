@@ -35,7 +35,7 @@ export default function SignIn() {
   };
 
   return (
-    <>
+    <div>
       <HeaderContainer>
         <Form>
           <FormTitle>Sign In</FormTitle>
@@ -68,6 +68,6 @@ export default function SignIn() {
         </Form>
       </HeaderContainer>
       <FooterContainer />
-    </>
+    </div>
   );
 }

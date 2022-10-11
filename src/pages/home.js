@@ -8,7 +8,7 @@ import { FooterContainer } from '../containers/footer';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <HeaderContainer showSignIn>
         <Feature>
           <FeatureTitle>Unlimited movies, TV shows, and more.</FeatureTitle>
@@ -25,6 +25,6 @@ export default function Home() {
       <JumbotronContainer />
       <FaqsContainer />
       <FooterContainer />
-    </>
+    </div>
   );
 }

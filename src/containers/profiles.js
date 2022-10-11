@@ -13,7 +13,7 @@ import profiles from '../data/profiles.json';
 
 export function SelectProfileContainer({ setProfile }) {
   return (
-    <>
+    <div>
       <Header bg={false}>
         <HeaderFrame>
           <HeaderLogo to={ROUTES.HOME} src={logo} alt="Netflix" />
@@ -31,6 +31,6 @@ export function SelectProfileContainer({ setProfile }) {
           ))}
         </ProfilesList>
       </Profiles>
-    </>
+    </div>
   );
 }
