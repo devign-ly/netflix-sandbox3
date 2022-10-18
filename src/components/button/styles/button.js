@@ -13,14 +13,17 @@ export const Button = styled.button`
   border-radius: 4px;
   text-decoration: none;
   cursor: pointer;
+  &.small {
+    padding: var(--space-5);
+  }
+  &.large {
+    padding: var(--space-15);
+    font-weight: var(--font-bold);
+  }
   &:disabled {
     opacity: 0.5;
   }
   &:hover {
     background: #f40612;
-  }
-  &.large {
-    padding: var(--space-15);
-    font-weight: var(--font-bold);
   }
 `;
