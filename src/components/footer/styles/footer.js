@@ -6,7 +6,7 @@ export const Container = styled.div`
   margin: auto;
   max-width: 1000px;
   flex-direction: column;
-
+  font-family: sans-serif;
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -39,6 +39,7 @@ export const Title = styled.p`
   font-size: var(--text-md);
   color: #757575;
   margin-bottom: var(--space-40);
+  font-family: var(--font-title);
 `;
 
 export const Break = styled.div`

@@ -11,8 +11,8 @@ export const Container = styled.div`
 export const Title = styled.h1`
   color: white;
   max-width: 640px;
-  font-family: var(--font-title);
-  font-size: var(--text-4xl);
+  font-family: var(--font-body);
+  font-size: var(--text-3xl);
   font-weight: var(--font-semibold);
   margin: auto;
   @media (max-width: 600px) {

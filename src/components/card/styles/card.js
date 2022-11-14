@@ -4,7 +4,7 @@ export const Title = styled.p`
   font-family: var(--font-title);
   font-size: var(--text-xl);
   color: #e5e5e5;
-  font-weight: var(--font-semibold);
+  font-weight: var(--font-regular);
   margin-left: 56px;
   margin-right: 56px;
   margin-top: var(--space-0);
